@@ -21,12 +21,23 @@
   --border: 2px 2px 2px 2px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  letter-spacing: 2px;
+  color: var(--text);
+  text-shadow: var(--shadow);
+}
+
 /* Loader that trigers before the page loads */
 .loader {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--dark-color);
   height: 100%;
   width: 100%;
   display: flex;
@@ -41,4 +52,25 @@
 }
 .loader-hidden {
   animation: fade-out 0.5s forwards;
+}
+
+@keyframes fade-out {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -2;
+  }
+}
+
+/* section colors */
+main > section {
+  height: 100vh;
+}
+
+main > section:nth-child(2n-1) {
+  background-color: var(--primary);
+}
+
+main > section:nth-child(2n) {
+  background-color: var(--accent);
 }
