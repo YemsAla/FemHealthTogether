@@ -21,6 +21,13 @@
   --border: 2px 2px 2px 2px;
 }
 
+/* Global */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -62,8 +69,17 @@ h6 {
   }
 }
 
+/* Hero Image */
+.hero-image {
+  /* background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/static/images/hero/map-pins-hero-1500x1000-compress.webp") left center no-repeat; */
+  background: purple;
+  background-size: cover;
+  background-position:center;
+  height: 600px;
+}
+
 /* section colors */
-main > section {
+/* main > section {
   height: 100vh;
 }
 
@@ -73,4 +89,4 @@ main > section:nth-child(2n-1) {
 
 main > section:nth-child(2n) {
   background-color: var(--accent);
-}
+} */
