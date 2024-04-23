@@ -10,9 +10,9 @@
   /* Colours */
   --text: #000000;
   --background: #ffffff;
-  --primary: #444444;
-  --secondary: #888888;
-  --accent: #cccccc;
+  --primary: #BF9CF6;
+  --secondary: #BBC1DA;
+  --accent: #052A75;
 
   /* Utility */
   --form-shadow: 0 0 0.7rem var(--primary);
@@ -28,6 +28,11 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -38,6 +43,31 @@ h6 {
   letter-spacing: 2px;
   color: var(--text);
   text-shadow: var(--shadow);
+}
+
+/* Buttons */
+.button-link {
+  color: var(--background);
+  border: none;
+  background: var(--accent);
+  font-size: 1rem;
+  align-self: center;
+  border-radius: 100px;
+  border-color: transparent;
+  padding: 4px 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  min-width: 75px;
+}
+
+.button-link:hover {
+  opacity: 0.8;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.card {
+  background: var(--secondary);
 }
 
 /* Loader that trigers before the page loads */
@@ -72,7 +102,7 @@ h6 {
 /* Hero Image */
 .hero-image {
   /* background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/static/images/hero/map-pins-hero-1500x1000-compress.webp") left center no-repeat; */
-  background: purple;
+  background: var(--primary);
   background-size: cover;
   background-position:center;
   height: 600px;
