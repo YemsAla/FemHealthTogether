@@ -108,6 +108,11 @@ h6 {
   height: 600px;
 }
 
+/* Info Carousel */
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%); 
+}
+
 /* section colors */
 /* main > section {
   height: 100vh;
