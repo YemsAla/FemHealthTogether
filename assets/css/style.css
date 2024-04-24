@@ -247,26 +247,112 @@ main > section:nth-child(2n) {
   height: 2.5rem;
 }
 
+.intro-container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .body-plus-container {
   width: 100%;
+  max-width: 380px;
   position: relative;
+  margin: 0 auto;
+}
+
+.body-container {
   display: flex;
   justify-content: center;
 }
 
 .body {
-  width: 80%;
+  margin-top: 4rem;
+  width: 75%;
 }
 
+.warning-info {
+  text-align: center;
+}
+
+/* Symptom specific */
 .symptom-icon {
   height: 4rem;
+  display: block;
+  position: absolute;
 }
 
-.top-tip {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 0.5rem;
+.symptom-icon:hover {
+  height: 6rem;
 }
+
+.symptom-placeholder {
+  display: block;
+  position: absolute;
+}
+
+#top-tip-trigger {
+  top: 0rem;
+  left: 4rem;
+}
+
+#women-mood {
+  top: 0rem;
+  right: 4rem;
+}
+
+#women-headache {
+  top: 5rem;
+  left: 0.5rem;
+}
+#women-sleep {
+  top: 5rem;
+  right: 0.5rem;
+}
+
+#women-brain-fog {
+  top: 10rem;
+  left: -0.5rem;
+}
+#women-mouth {
+  top: 10rem;
+  right: -0.5rem;
+}
+
+#women-hot-flush {
+  top: 16rem;
+  left: -1rem;
+}
+#women-heart {
+  top: 16rem;
+  right: -1rem;
+}
+
+#women-skin {
+  top: 22rem;
+  left: -1rem;
+}
+#women-vagina {
+  top: 22rem;
+  right: -1rem;
+}
+
+#women-sex {
+  top: 28rem;
+  left: 0rem;
+}
+#women-toilet {
+  top: 28rem;
+  right: 0rem;
+}
+
+#women-muscle {
+  top: 34rem;
+  left: 0rem;
+}
+#women-bone {
+  top: 34rem;
+  right: 0rem;
+}
+
 
 /* Modal specific */
 .symptom-modal, .top-tip-modal {
