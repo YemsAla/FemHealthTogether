@@ -111,6 +111,40 @@ h6 {
 }
 
 /* Rob CSS Styling */
+
+/* Navbar */
+
+ul {
+  list-style-type: none;    
+}
+.navbar {
+  background-color: var(--background);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+/* .navbar-nav a {
+  color: red;
+} */
+
+.navbar-nav a:hover {
+  color:var(--primary);
+}
+
+.active {
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.navbar button.navbar-toggler {
+  transition: all .15s ease;
+}
+
+@media (hover: hover) {
+  .navbar button.navbar-toggler:hover {
+      color: var(--primary);
+  }
+}
+
 /* Hero Image */
 .hero-image {
   /* background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/static/images/hero/map-pins-hero-1500x1000-compress.webp") left center no-repeat; */
