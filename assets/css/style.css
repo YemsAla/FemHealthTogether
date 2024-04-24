@@ -155,7 +155,7 @@ ul {
 }
 
 #hero-1 {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/images/hero/hero-image-1.svg") left center no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-1.svg") left center no-repeat;
 }
 
 #hero-2 {
