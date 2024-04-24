@@ -113,7 +113,6 @@ h6 {
 /* Rob CSS Styling */
 
 /* Navbar */
-
 ul {
   list-style-type: none;    
 }
@@ -121,10 +120,6 @@ ul {
   background-color: var(--background);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
 }
-
-/* .navbar-nav a {
-  color: red;
-} */
 
 .navbar-nav a:hover {
   color:var(--primary);
@@ -147,17 +142,50 @@ ul {
 
 /* Hero Image */
 .hero-image {
-  /* background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/static/images/hero/map-pins-hero-1500x1000-compress.webp") left center no-repeat; */
   background-size: cover;
   background-position:center;
   /* height: 600px; */
   margin-top: 100px;
 }
 
-#hero-1 {
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  #hero-1-caption {
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }     
+}
+
+@media only screen and (max-width: 991px) {
+  #hero-1-caption {
+    font-size: 1.75rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }     
+}
+
+@media only screen and (max-width: 767px) {
+  #hero-1-caption {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }     
+}
+
+@media only screen and (max-width: 499px) {
+  #hero-1-caption {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+  }     
+}
+
+/* #hero-1 {
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-1.svg") left center no-repeat;
-  /* background-size: cover; */
-  background-position:center;
 }
 
 #hero-2 {
@@ -166,7 +194,7 @@ ul {
 
 #hero-3 {
   background: var(--accent);
-}
+} */
 
 /* Site Goals Section */
 .info-box img {
