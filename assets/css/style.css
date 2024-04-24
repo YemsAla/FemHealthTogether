@@ -1,11 +1,11 @@
 /* header */
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   /* fonts */
-  --title: "Lato", sans-serif;
-  --main-font: "Playfair Display", serif;
-  --navigation-font: "Roboto", sans-serif;
+  --title: "Fredoka", sans-serif;
+  --main-font: "Karla", "Roboto" serif;
+  --navigation-font: "Fredoka", sans-serif;
 
   /* Colours */
   --text: #000000;
@@ -39,11 +39,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title-font);
+  font-family: var(--title);
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--text);
   text-shadow: var(--shadow);
+}
+
+.navbar-brand {
+  font-family: var(--title);
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: var(--navigation-font);
+  font-weight: 500;
 }
 
 /* Buttons */
@@ -110,7 +120,7 @@ h6 {
 }
 
 #hero-1 {
-  background: var(--primary);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/images/hero/hero-image-1.svg") left center no-repeat;
 }
 
 #hero-2 {
