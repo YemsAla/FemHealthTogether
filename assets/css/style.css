@@ -40,6 +40,7 @@ h4,
 h5,
 h6 {
   font-family: var(--title-font);
+  text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--text);
   text-shadow: var(--shadow);
@@ -118,6 +119,13 @@ h6 {
 
 #hero-3 {
   background: var(--accent);
+}
+
+/* Site Goals Section */
+.icon-link:hover {
+  opacity: 0.5;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 /* Info Carousel */
