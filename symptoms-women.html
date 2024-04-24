@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <!-- Semantic tags for search engines -->
+    <meta name="description" content="coping with menopause, menopause, women's health, mood swings during menopause, partner support for menopause, menopause support groups pre menopause, post menopause" />
+    <meta name="keywords" content="menopause support,hormone replacement therapy (HRT),menopause diet, hot flashes relief,mood swings during menopause, menopause vaginal health" />
     <meta name="author" content="" />
 
     <!-- Favicon -->
@@ -36,27 +37,31 @@
   <body class="d-flex flex-column min-vh-100">
     <!-- Header and navigation with bootstrap -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
         <div class="container ">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <!-- Nav Logo Starts-->
+          <a href="index.html"
+            class="navbar-brand image-clickable">
+            <img src="assets/images/logo/logo-icon.png" alt="" height="60">
+          </a>
+          <!-- Nav Logo Ends-->
+          <!-- Hamburger Toggler -->
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span><i class="fas fa-bars fa-2x" aria-hidden="true"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Hamburger Toggler Ends -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto fs-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -66,30 +71,29 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Health
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="symptoms-women.html">Women</a></li>
+                  <li><a class="dropdown-item" href="#">Partners</a></li>
+                  <li><a class="dropdown-item" href="#">Relatives</a></li>
+                  <li><a class="dropdown-item" href="#">Employers</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
 
     <!-- Symptoms of menopause plus tips for women persona-->
-    <main>
+    <main class="health-page">
       
       <!-- Sympton modal -->
       <section id="symptom-modal" class="symptom-modal">
@@ -108,54 +112,80 @@
         </div>
       </section>
 
+      <!-- Top tip modal -->
+      <section id="top-tip-modal" class="top-tip-modal">
+        <span id="tip-close" class="close">&times;</span>
+        <!-- Modal content -->
+        <div class="modal-content">
+          <h2>Top tip</h2>
+          <p>
+            Talk to your family and friends, share how you are feeling and let them know how they can best support you.
+          </p>
+          <p>
+            Make sure to speak to your doctor or pharmasist if your day to day life is being affected by your symptoms.
+          </p>
+        </div>
+      </section>
+
 
       <!-- Introduction -->
       <section>
-        <h1>Explore the facts as a women wanting to know what happens to the female body during menopause</h1>
+        <div class="title-container">
+          <img src="assets/images/logo/logo-image.png" alt="Meno-Together logo">
+          <h1>As a women</h1>
+        </div>
+        
 
         <!-- Switch Personas -->
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <div class="persona-container">
+          <ul class="persona-list">
+            <li>
+              <a href="symptoms-women.html">
+                <img class="current-persona" src="assets/images/icons/women-support/general/037-woman.png">
+              </a>
+            </li>
+            <li>
+              <a href="symptoms-women.html">
+                <img class="persona-icon" src="assets/images/icons/women-support/partner/003-kissing.png">
+              </a>
+            </li>
+            <li>
+              <a href="symptoms-women.html">
+                <img class="persona-icon" src="assets/images/icons/women-support/family-and-friends/027-friendship-1.png">
+              </a>
+            </li>
+            <li>
+              <a href="symptoms-women.html">
+                <img class="persona-icon" src="assets/images/icons/women-support/workplace/041-computer.png">
+              </a>
+            </li>
+
           </ul>
         </div>
 
         <div>
-          <p>Perimenopause, menopause and postmenopause are natural stages that your body will go through as the hormones 
-            regulating your cycle begin to fluctate and levels drop. It is a process that happens gradually over a number 
-            of years and effects every woman differently.
-          </p>
           <p>
-            The symptoms shown below can appear daunting and unpleasant, but there are a number of things you can do to ease and prevent symptoms.
-          </p>
-          <p>
-            By understanding what is happening and 
-            being proactive in looking after your body as well as talking to and seeking support from those around you, you 
+            The symptoms of menopause shown below can appear daunting and unpleasant, but there are a number of things you can do to ease and prevent symptoms.
+            By understanding what is happening and being proactive in looking after your body as well as talking to and seeking support from those around you, you 
             can continue to be yourself and enjoy life just as you have always done.
           </p>
         </div>
       </section>
 
-      <section>
+      <section class="body-plus-container">
       <!-- Top Tip -->
-      <div>
+      <div id="top-tip-trigger">
         <p>
-          Talk to your family and friends, share how you are feeling and let them know how they can best support you.
-        </p>
-        <p>
-          Make sure to speak to your doctor or pharmasist if your day to day life is being affected by your symptoms.
+          Top Tip
         </p>
       </div>
 
       <!-- Interactive body -->
       <div>
-        <img src="assets/images/body-diagram.png" alt="Outline image of a woman's body">
+        <img class="body" src="assets/images/body-diagram.png" alt="Outline image of a woman's body">
       </div>
-      <div class="symptom-icon">
-        <img src="assets/images/icons/body-symptoms/004-distracted.png">
+      <div>
+        <img class="symptom-icon" src="assets/images/icons/body-symptoms/004-distracted.png">
       </div>
       </section>
 
