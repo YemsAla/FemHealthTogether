@@ -254,7 +254,9 @@ main > section:nth-child(2n) {
 
 .body-plus-container {
   width: 100%;
+  max-width: 380px;
   position: relative;
+  margin: 0 auto;
 }
 
 .body-container {
@@ -380,5 +382,3 @@ main > section:nth-child(2n) {
   text-decoration: none;
   cursor: pointer;
 }
-
-/* */
