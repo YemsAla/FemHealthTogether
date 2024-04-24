@@ -150,12 +150,14 @@ ul {
   /* background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/static/images/hero/map-pins-hero-1500x1000-compress.webp") left center no-repeat; */
   background-size: cover;
   background-position:center;
-  height: 600px;
+  /* height: 600px; */
   margin-top: 100px;
 }
 
 #hero-1 {
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-1.svg") left center no-repeat;
+  /* background-size: cover; */
+  background-position:center;
 }
 
 #hero-2 {
@@ -167,6 +169,23 @@ ul {
 }
 
 /* Site Goals Section */
+.info-box img {
+  height: 80px;
+}
+
+/* Media query for mobile devices from 500px and down reduces image height to 70px */
+@media only screen and (max-width: 500px) {
+  .info-box img {
+    height: 70px;
+  }  
+}
+/* Media query for mobile devices from 400px and down reduces image height to 60px */
+@media only screen and (max-width: 400px) {
+  .info-box img {
+    height: 60px;
+  }  
+}
+
 .icon-link:hover {
   opacity: 0.5;
   transform: scale(1.2);
