@@ -59,7 +59,7 @@ function topTip() {
 }
 
 function openModal(event) {
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 992) {
     modal.show();
   }
 
@@ -78,6 +78,10 @@ function openModal(event) {
     messageTip[i].innerText = infoObject.tips;
     i++;
   }
+
+  console.log(infoObject);
+
+  showBodyPart(infoObject.area);
 }
 
 function findObjectById(id) {
@@ -85,3 +89,63 @@ function findObjectById(id) {
     return obj.id === id;
   });
 }
+
+function showBodyPart(bodyPart) {
+  // Get all elements with the class body-images
+  var images = document.getElementsByClassName("body-images");
+
+  // Loop through each image element
+  for (var i = 0; i < images.length; i++) {
+    // Get the data-body-part attribute value of the current image
+    var dataBodyPart = images[i].getAttribute("data-body-part");
+
+    // Check if the current image's data-body-part matches the provided bodyPart
+    if (dataBodyPart === bodyPart) {
+      // If it matches, display the image
+      images[i].style.display = "block";
+    } else {
+      // If it doesn't match, hide the image
+      images[i].style.display = "none";
+    }
+  }
+}
+
+// staggered animation for icons
+
+function observerAcctivation(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      staggeredTimeout();
+      console.log("Threshold reached!");
+      // Disconnect the observer if needed
+      observer.disconnect();
+    }
+  });
+}
+
+function staggeredTimeout() {
+  const elements = document.querySelectorAll(".symptom-icon");
+  let delayIncrement = 100; // Increment delay in milliseconds
+  elements.forEach(function (element, index) {
+    setTimeout(function () {
+      element.classList.add("active");
+    }, index * delayIncrement);
+  });
+}
+
+// reviel sections
+
+const revealElements = function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.remove("section-hidden");
+    observer.unobserve(entry.target);
+  });
+};
+const iconContainer = document.querySelector("#icon-container");
+
+const sectionsObserver = new IntersectionObserver(observerAcctivation, {
+  root: null,
+  threshold: 0.8,
+});
+sectionsObserver.observe(iconContainer);
