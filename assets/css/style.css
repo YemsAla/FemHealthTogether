@@ -232,6 +232,19 @@ footer {
   background-color: var(--secondary);
 }
 
+/* Team Page */
+
+.team-goals {
+  margin-top: 100px;
+}
+
+/* Media query for mobile devices from 575px and down reduces image height to 70px */
+@media only screen and (max-width: 575px) {
+  .profile-container {
+    flex-direction: column;
+  }
+}
+
 /* Rob CSS Styling ENDS */
 
 
