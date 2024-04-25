@@ -225,6 +225,16 @@ ul {
   filter: invert(100%); 
 }
 
+/* Footer */
+
+footer {
+  background-color: var(--secondary);
+}
+
+/* Rob CSS Styling ENDS */
+
+
+
 /* section colors */
 /* main > section {
   height: 100vh;
