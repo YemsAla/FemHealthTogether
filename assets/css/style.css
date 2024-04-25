@@ -40,6 +40,7 @@ h4,
 h5,
 h6 {
   font-family: var(--title);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--text);
@@ -153,24 +154,25 @@ ul {
   bottom: auto;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
   #hero-1-caption {
+    font-size: 3rem;
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 9rem;
   }
 }
 
 @media only screen and (max-width: 991px) {
   #hero-1-caption {
     font-size: 1.75rem;
-    margin-top: 4rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   #hero-1-caption {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
     margin-left: 4rem;
   }
@@ -179,8 +181,20 @@ ul {
 @media only screen and (max-width: 499px) {
   #hero-1-caption {
     font-size: 1.1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: 4rem;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  #hero-1-caption {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #hero-1-caption {
+    font-size: 0.8rem;
   }
 }
 
