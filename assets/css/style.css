@@ -40,6 +40,7 @@ h4,
 h5,
 h6 {
   font-family: var(--title);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--text);
@@ -153,24 +154,25 @@ ul {
   bottom: auto;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
   #hero-1-caption {
+    font-size: 3rem;
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 9rem;
   }
 }
 
 @media only screen and (max-width: 991px) {
   #hero-1-caption {
     font-size: 1.75rem;
-    margin-top: 4rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
   }
 }
 
 @media only screen and (max-width: 767px) {
   #hero-1-caption {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     margin-top: 2rem;
     margin-left: 4rem;
   }
@@ -179,8 +181,20 @@ ul {
 @media only screen and (max-width: 499px) {
   #hero-1-caption {
     font-size: 1.1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: 4rem;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  #hero-1-caption {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #hero-1-caption {
+    font-size: 0.8rem;
   }
 }
 
@@ -247,6 +261,71 @@ footer {
 
 /* Rob CSS Styling ENDS */
 
+
+/* Contact Form */
+#signup {
+  margin-top: 100px;
+}
+
+#signup-form {
+  color: var(--text);
+  background-color: var(--secondary);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form-control {
+  text-align: left;
+}
+
+::placeholder {
+  font-family: var(--main-font);
+  color: var(--text);
+}
+
+input:focus,
+textarea:focus {
+    outline-style:solid;
+    outline-width: 1px;
+    outline-color: var(--primary);
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
+    border: 0;
+    border-bottom: 0.5px solid var(--primary);
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-family: var(--main-font);
+    color: var(--text);
+}
+
+.form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--accent);
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 0.5px;
+  font-family: var(--main-font);
+  padding: 5px;
+  font-size: 16px;
+  color: var(--text);
+}
+
+/* Media query for mobile devices from 767px and down switches checkboxes to column */
+@media only screen and (max-width: 767px) {
+  .checkbox-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
 /* section colors */
 /* main > section {
   height: 100vh;
@@ -259,6 +338,7 @@ main > section:nth-child(2n-1) {
 main > section:nth-child(2n) {
   background-color: var(--accent);
 } */
+
 
 /*************************************************************************************************  Form ****************/
 #signup {
@@ -334,3 +414,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+
