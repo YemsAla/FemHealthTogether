@@ -30,7 +30,8 @@
     <script defer src="https://kit.fontawesome.com/be71380b34.js" crossorigin="anonymous"></script>
 
     <!-- standard Css -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
     <title>Reach out to us!</title>
   </head>
   <body>
@@ -80,61 +81,118 @@
 
     <main>
       <section id="signup">
-        <form id="signup-form" method="POST" aria-label="Signup Form" action="submit_contact_form.php" method="post" onsubmit="return redirectToHomePage()">
-          <h2>
-            <i class="fa-solid fa-heart-pulse"></i>
-            Reach out to us!
-          </h2>
-          <label for="first_name">First Name</label>
-          <input type="text" name="fist_name" class="text-input" id="first_name" required />
-          <br />
-          <label for="last_name">Last Name</label>
-          <input type="text" name="last_name" class="text-input" id="last_name" required />
-          <br />
-          <label for="email_address">Email Address</label>
-          <input type="email" name="email_address" class="text-input" id="email_address" required />
-          <br />
-
-          <div class="radio-buttons">
-            <div>
-              <label id="road-label" for="road">Yourself</label>
-              <input type="radio" id="road" name="running-preference" value="road" required checked />
-            </div>
-            <div>
-              <label id="trail-label" for="trail">Partners</label>
-              <input type="radio" id="trail" name="running-preference" value="trail" required />
-            </div>
-            <div>
-              <label id="both-label" for="both">Relatives/Friends</label>
-              <input type="radio" id="both" name="running-preference" value="both" required />
-            </div>
-            <div>
-              <label id="both-label" for="both">Co-worker</label>
-              <input type="radio" id="both" name="running-preference" value="both" required />
+        <div class="container">
+          <div class="row mb-4">
+            <div class="info-box d-flex flex-column justify-content-center">
+              <div class="card border-0 text-center mt-4">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h2>We want to hear from you...</h2>
+                  </div>
+                  <div class="my-4">
+                    <img src="assets/images/placeholders/eavesdropping.png" alt="a person listening">
+                  </div>
+                  <p>If you have more questions about managing menopause or want to know more about how to best support someone through menopause, send us your questions and comments below. You can also let us know how we're doing and what you would like to see more of.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <label for="further_info">Further Information:</label>
-          <textarea id="further_info" name="further_info"></textarea>
-          <!-- This is the text box for further information -->
-          <button type="submit" class="join-button">Send</button>
-
-          <!-- JavaScript for redirecting the user back to home page -->
-
-          <script>
-            function redirectToHomePage() {
-              // Display sucess message
-              alert("Form submission successful. Thank you for visiting.Keep Exploring!!");
-
-              // Redirect the user to the home page immediately
-              window.location.href = "index.html";
-
-              // Return false to prevent the form from submitting
-              return false;
-            }
-          </script>
-        </form>
+          <div class="row mb-4 contact-form p-2">
+            <form id="signup-form" method="POST" aria-label="Signup Form" action="submit_contact_form.php" method="post" onsubmit="return redirectToHomePage()">
+              <h3 class="text-center mb-4">
+                Reach Out To Us
+              </h3>
+              <!-- First Name -->
+              <div class="form-control">
+                <input class="text-input" type="text" name="first_name" placeholder="First Name" aria-label="Your first name" required >                                   
+              </div>
+              <br />
+              <!-- Last Name-->
+              <div class="form-control">
+                <input class="text-input" type="text" name="last_name" placeholder="Last Name" aria-label="Your last name" required>       
+              </div>
+              <br />
+              <!-- Email Address -->
+              <div class="form-control">
+                <input class="text-input" type="email" name="email_address" placeholder="Email Address" aria-label="Your email address" required>
+              </div>
+              <br />
+              <h4 class="fs-5 text-center">Your Role</h4>
+              <div class="checkbox-container d-flex justify-content-between w-75 mx-auto my-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="yourself" id="checkYourself" checked>
+                  <label class="form-check-label" for="checkYourself">
+                    Yourself
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="partner" id="checkPartner">
+                  <label class="form-check-label" for="checkPartner">
+                    Partner
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="friend" id="checkFriend">
+                  <label class="form-check-label" for="checkFriend">
+                    Friend
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="co-worker" id="checkCoworker">
+                  <label class="form-check-label" for="checkCoworker">
+                    Co-Worker
+                  </label>
+                </div>
+              </div>
+              <!--Text Box-->
+              <div class="form-control">
+                <textarea cols="50" rows="10" name="feedback" placeholder="Tell us about yourself or ask a question..." aria-label="Information about yourself" required></textarea>
+                <br>
+              </div>
+              <!--Submit Button--> 
+              <div class="mt-4 text-center">
+                <input class="button-link" type="submit" value="Send">
+              </div>
+              <!-- <button type="submit" class="join-button">Send</button> -->
+    
+              <!-- JavaScript for redirecting the user back to home page -->
+    
+              <script>
+                function redirectToHomePage() {
+                  // Display sucess message
+                  alert("Form submission successful. Thank you for visiting.Keep Exploring!!");
+    
+                  // Redirect the user to the home page immediately
+                  window.location.href = "index.html";
+    
+                  // Return false to prevent the form from submitting
+                  return false;
+                }
+              </script>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
+    <!-- Footer Starts -->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="social-links d-flex justify-content-center pt-4 gap-5">
+            <a href="https://github.com/YemsAla/Team5Hackathon" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the developer's GitHub page (opens in a new tab)">
+              <i class="fa-brands fa-github nav-icon fa-3x"></i>
+            </a>
+            <a href="https://hackathon.codeinstitute.net/teams/422/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit our Code Institute Hackathon Team Page(opens in a new tab)"><i class="fa-solid fa-people-group fa-3x"></i></a>
+          </div>
+        </div>
+        <div class="row pb-4">
+          <div class="d-flex flex-column justify-content-center pt-2 align-items-center gap-1">
+            <p class="lead mb-auto">© developed by FemHealthTogether</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/a5f69afbb5.js" crossorigin="anonymous"></script>
