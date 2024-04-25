@@ -245,6 +245,10 @@ main > section:nth-child(2n) {
 .health-page {
   margin-top: 110px;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .title-container {
@@ -295,8 +299,10 @@ main > section:nth-child(2n) {
 }
 
 .intro-container {
-  margin-bottom: 2rem;
   text-align: center;
+  max-width: 60rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .body-plus-container {
@@ -318,6 +324,17 @@ main > section:nth-child(2n) {
 
 .warning-info {
   text-align: center;
+  max-width: 60rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background-color: var(--primary);
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.warning-info > p {
+  margin: 0;
 }
 
 /* Symptom specific */
@@ -428,4 +445,25 @@ main > section:nth-child(2n) {
   color:black;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+  .title-container > img {
+    height: 7rem;
+  }
+  .title-container > h1 {
+    font-size: 3.5rem;
+  }
+  .persona-container > ul {
+    width: 15rem;
+  }
+  .persona-icon {
+    height: 2rem;
+  }
+  .persona-icon:hover {
+    height: 3rem;
+  }
+  .current-persona {
+    height: 3rem;
+  }
 }
