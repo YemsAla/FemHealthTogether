@@ -80,7 +80,7 @@
 
     <main>
       <section id="signup">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net" aria-label="Signup Form">
+        <form id="signup-form" method="POST" aria-label="Signup Form" action="submit_contact_form.php" method="post" onsubmit="return redirectToHomePage()">
           <h2>
             <i class="fa-solid fa-heart-pulse"></i>
             Reach out to us!
@@ -117,6 +117,21 @@
           <textarea id="further_info" name="further_info"></textarea>
           <!-- This is the text box for further information -->
           <button type="submit" class="join-button">Send</button>
+
+          <!-- JavaScript for redirecting the user back to home page -->
+
+          <script>
+            function redirectToHomePage() {
+              // Display sucess message
+              alert("Form submission successful. Thank you for visiting.Keep Exploring!!");
+
+              // Redirect the user to the home page immediately
+              window.location.href = "index.html";
+
+              // Return false to prevent the form from submitting
+              return false;
+            }
+          </script>
         </form>
       </section>
     </main>
