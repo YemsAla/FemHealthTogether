@@ -1,5 +1,5 @@
 /* header */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
   /* fonts */
@@ -10,9 +10,9 @@
   /* Colours */
   --text: #000000;
   --background: #ffffff;
-  --primary: #BF9CF6;
-  --secondary: #BBC1DA;
-  --accent: #052A75;
+  --primary: #bf9cf6;
+  --secondary: #bbc1da;
+  --accent: #052a75;
 
   /* Utility */
   --form-shadow: 0 0 0.7rem var(--primary);
@@ -114,7 +114,7 @@ h6 {
 
 /* Navbar */
 ul {
-  list-style-type: none;    
+  list-style-type: none;
 }
 .navbar {
   background-color: var(--background);
@@ -122,7 +122,7 @@ ul {
 }
 
 .navbar-nav a:hover {
-  color:var(--primary);
+  color: var(--primary);
 }
 
 .active {
@@ -131,19 +131,19 @@ ul {
 }
 
 .navbar button.navbar-toggler {
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 
 @media (hover: hover) {
   .navbar button.navbar-toggler:hover {
-      color: var(--primary);
+    color: var(--primary);
   }
 }
 
 /* Hero Image */
 .hero-image {
   background-size: cover;
-  background-position:center;
+  background-position: center;
   /* height: 600px; */
   margin-top: 100px;
 }
@@ -157,7 +157,7 @@ ul {
   #hero-1-caption {
     margin-top: 4rem;
     margin-left: 4rem;
-  }     
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -165,7 +165,7 @@ ul {
     font-size: 1.75rem;
     margin-top: 4rem;
     margin-left: 4rem;
-  }     
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -173,7 +173,7 @@ ul {
     font-size: 1.25rem;
     margin-top: 2rem;
     margin-left: 4rem;
-  }     
+  }
 }
 
 @media only screen and (max-width: 499px) {
@@ -181,7 +181,7 @@ ul {
     font-size: 1.1rem;
     margin-top: 1.5rem;
     margin-left: 4rem;
-  }     
+  }
 }
 
 /* #hero-1 {
@@ -205,13 +205,13 @@ ul {
 @media only screen and (max-width: 500px) {
   .info-box img {
     height: 70px;
-  }  
+  }
 }
 /* Media query for mobile devices from 400px and down reduces image height to 60px */
 @media only screen and (max-width: 400px) {
   .info-box img {
     height: 60px;
-  }  
+  }
 }
 
 .icon-link:hover {
@@ -221,8 +221,9 @@ ul {
 }
 
 /* Info Carousel */
-.carousel-control-prev, .carousel-control-next {
-  filter: invert(100%); 
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
 }
 
 /* section colors */
@@ -237,8 +238,6 @@ main > section:nth-child(2n-1) {
 main > section:nth-child(2n) {
   background-color: var(--accent);
 } */
-
-
 
 /* Symptoms Pages */
 
@@ -266,7 +265,7 @@ main > section:nth-child(2n) {
   font-size: 2rem;
   margin-bottom: 0;
   margin-right: 1rem;
-  color: #524ED2;
+  color: #524ed2;
 }
 
 .persona-container {
@@ -417,9 +416,9 @@ main > section:nth-child(2n) {
   right: 0rem;
 }
 
-
 /* Modal specific */
-.symptom-modal, .top-tip-modal {
+.symptom-modal,
+.top-tip-modal {
   display: none;
   position: fixed;
   z-index: 3;
@@ -428,7 +427,7 @@ main > section:nth-child(2n) {
   max-width: 30rem;
   right: 10%;
   top: 120px;
-  background-color: #E1E4EF;
+  background-color: #e1e4ef;
   padding: 1rem 1.8rem 1rem 1rem;
   border: 2px solid black;
   border-radius: 10px;
@@ -446,30 +445,32 @@ main > section:nth-child(2n) {
   font-weight: bold;
 }
 
-.close:hover, .close:focus {
-  color:black;
+.close:hover,
+.close:focus {
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
 .modal-content > h2 {
-  color: #0E1081;
+  color: #0e1081;
   margin-bottom: 2rem;
 }
 
 .tip {
-  color: #524ED2;
+  color: #524ed2;
 }
 
-@media screen and (min-width:600px){
-  .symptom-modal, .top-tip-modal {
+@media screen and (min-width: 600px) {
+  .symptom-modal,
+  .top-tip-modal {
     max-height: 40rem;
     right: 1rem;
     top: 120px;
   }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .title-container > img {
     height: 7rem;
   }
@@ -490,7 +491,7 @@ main > section:nth-child(2n) {
   }
 }
 
-@media screen and (min-width:1098px){
+@media screen and (min-width: 1098px) {
   .intro-container {
     max-width: 80rem;
   }
@@ -514,9 +515,85 @@ main > section:nth-child(2n) {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  .symptom-modal, .top-tip-modal {
+  .symptom-modal,
+  .top-tip-modal {
     position: absolute;
     right: 0rem;
     top: 5rem;
   }
+}
+
+/*************************************************************************************************  Form ****************/
+#signup {
+  background-image: url("/assets/images/placeholders/couple-holding-hands.webp");
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+#signup-form {
+  color: #ffffff;
+  background-color: rgba(60, 60, 60, 0.6);
+  padding: 30px;
+}
+
+#signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.radio-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #454b1b;
+  color: #fafafa;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
