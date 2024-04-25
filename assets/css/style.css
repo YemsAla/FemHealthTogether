@@ -427,8 +427,8 @@ main > section:nth-child(2n) {
 }
 
 /* Modal specific */
-.symptom-modal,
-.top-tip-modal {
+.symptom-modal {
+
   display: none;
   position: fixed;
   z-index: 3;
@@ -525,11 +525,16 @@ main > section:nth-child(2n) {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  .symptom-modal,
-  .top-tip-modal {
+  .symptom-modal {
     position: absolute;
     right: 0rem;
     top: 5rem;
+    display: block;
+    height: 25rem;
+    width:30rem;
+  }
+  #close {
+    display: none;
   }
 }
 
