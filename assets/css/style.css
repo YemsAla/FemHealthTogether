@@ -163,7 +163,8 @@ ul {
 
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption {
     font-size: 2.5rem;
     margin-top: 4rem;
     margin-left: 9.5rem;
@@ -174,7 +175,8 @@ ul {
 @media only screen and (max-width: 1200px) {
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption {
     font-size: 2rem;
     margin-top: 3rem;
     margin-left: 7rem;
@@ -191,7 +193,8 @@ ul {
   
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption {
     font-size: 1.5rem;
     margin-top: 1.5rem;
     margin-left: 6rem;
@@ -208,7 +211,8 @@ ul {
   
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption {
     font-size: 0.9rem;
     margin-top: 1rem;
     margin-left: 5rem;
@@ -225,7 +229,8 @@ ul {
   
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption {
     font-size: 0.7rem;
     margin-top: 1rem;
     margin-left: 3.5rem;
@@ -246,7 +251,9 @@ ul {
   
   #hero-2-caption,
   #hero-3-caption,
-  #hero-4-caption {
+  #hero-4-caption,
+  #hero-5-caption
+   {
     font-size: 0.6rem;
     margin-top: 0.5rem;
     margin-left: 3rem;
