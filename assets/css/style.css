@@ -319,7 +319,7 @@ main > section:nth-child(2n) {
 
 .body {
   margin-top: 4rem;
-  width: 75%;
+  max-height: 80vh;
 }
 
 .warning-info {
@@ -487,5 +487,36 @@ main > section:nth-child(2n) {
   }
   .current-persona {
     height: 3rem;
+  }
+}
+
+@media screen and (min-width:1098px){
+  .intro-container {
+    max-width: 80rem;
+  }
+  .warning-info {
+    max-width: 80rem;
+  }
+  .body-plus-container {
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .modal-placeholder {
+    width: 30rem;
+  }
+  .body-container {
+    position: relative;
+    margin-left: 2rem;
+  }
+  .body {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .symptom-modal, .top-tip-modal {
+    position: absolute;
+    right: 0rem;
+    top: 5rem;
   }
 }
