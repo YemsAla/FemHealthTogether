@@ -90,7 +90,9 @@ The platform will serve as a one-stop destination for education, empathy and pra
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) and used as a blueprint for development of the site layout and structure.
 
-![Mobile Wireframes](docs/wireframes/meno-together-mobile-draft1.png)
+![Mobile Wireframes](docs/wireframes/meno-together-mobile-draft2.png)
+
+These evolved slightly throughout the planning phase.  The first draft can be viewed [here](docs/wireframes/meno-together-mobile-draft1.png)
 
 ## References
 
