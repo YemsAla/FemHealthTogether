@@ -154,19 +154,51 @@ ul {
   bottom: auto;
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (max-width: 4000px) {
   #hero-1-caption {
     font-size: 3rem;
     margin-top: 4rem;
     margin-left: 9rem;
   }
+
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-left: 9.5rem;
+    text-align: left
+  }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    text-align: left
+  }
+}
+
+@media only screen and (max-width: 992px) {
   #hero-1-caption {
     font-size: 1.75rem;
     margin-top: 3rem;
     margin-left: 7rem;
+  }
+  
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    text-align: left
   }
 }
 
@@ -176,6 +208,16 @@ ul {
     margin-top: 2rem;
     margin-left: 4rem;
   }
+  
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    text-align: left
+  }  
 }
 
 @media only screen and (max-width: 499px) {
@@ -183,6 +225,16 @@ ul {
     font-size: 1.1rem;
     margin-top: 1rem;
     margin-left: 4rem;
+  }
+  
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    text-align: left
   }
 }
 
@@ -196,19 +248,38 @@ ul {
   #hero-1-caption {
     font-size: 0.8rem;
   }
+  
+  #hero-2-caption,
+  #hero-3-caption,
+  #hero-4-caption,
+  #hero-5-caption
+   {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    text-align: left
+  }
 }
 
-/* #hero-1 {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-1.svg") left center no-repeat;
+#hero-1 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-1.webp") left center no-repeat;
 }
 
 #hero-2 {
-  background: var(--secondary);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-2.webp") left center no-repeat;
 }
 
 #hero-3 {
-  background: var(--accent);
-} */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-3.webp") left center no-repeat;
+}
+
+#hero-4 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-4.webp") left center no-repeat;
+}
+
+#hero-5 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hero/hero-image-5.webp") left center no-repeat;
+}
 
 /* Site Goals Section */
 .info-box img {
