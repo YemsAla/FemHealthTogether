@@ -522,4 +522,7 @@ main > section:nth-child(2n) {
     height: 25rem;
     width:30rem;
   }
+  #close {
+    display: none;
+  }
 }
