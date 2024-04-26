@@ -134,4 +134,6 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 
   - Source: British Menopause Society, "Menopause Matters" (2020). [Link - https://www.britishmenopausesociety.org/menopause-faqs/]
 
-  Source: Menopause UK, "The Menopause Survey 2020". [Link - https://www.menopauseuk.org/for-women/menopause-awareness/menopause-uk-survey-2020]
+  - Source: Menopause UK, "The Menopause Survey 2020". [Link - https://www.menopauseuk.org/for-women/menopause-awareness/menopause-uk-survey-2020]
+
+  - Reference for inclusivity: Article: Inclusive Language and the Menopause (GenderGP Transgender Services) [Link - https://www.gendergp.com/blog-menopause-inclusivity/]
