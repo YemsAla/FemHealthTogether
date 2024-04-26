@@ -356,20 +356,20 @@ footer {
 
 input:focus,
 textarea:focus {
-    outline-style:solid;
-    outline-width: 1px;
-    outline-color: var(--primary);
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: var(--primary);
 }
 
-.contact-form input[type='text'],
-.contact-form input[type='email'] {
-    border: 0;
-    border-bottom: 0.5px solid var(--primary);
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-    font-family: var(--main-font);
-    color: var(--text);
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  border: 0;
+  border-bottom: 0.5px solid var(--primary);
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  font-family: var(--main-font);
+  color: var(--text);
 }
 
 .form-check-input:checked {
@@ -393,9 +393,6 @@ textarea {
     flex-direction: column;
   }
 }
-
-
-
 
 /* section colors */
 /* main > section {
@@ -468,6 +465,7 @@ textarea {
   margin-bottom: 15px;
   box-sizing: border-box;
 }
+
 textarea {
   width: 100%;
   height: 150px; 
@@ -475,6 +473,7 @@ textarea {
   margin-bottom: 15px;
   box-sizing: border-box;
 }
+
 input[type="submit"] {
   background-color: #007bff;
   color: #fff;
@@ -482,7 +481,45 @@ input[type="submit"] {
   padding: 10px 20px;
   cursor: pointer;
 }
+
 input[type="submit"]:hover {
   background-color: #0056b3;
 } */
 
+/********************************************************CSS styles for Thank you page */
+
+.contact-page {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+#signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin-top: auto;
+}
+
+/**************************************************************** CSS styles for Footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-page-body {
+  /* Prevent vertical scrollbar only on the thank you page */
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.contact-page-html {
+  overflow-y: hidden;
+}
