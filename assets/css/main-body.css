@@ -100,3 +100,24 @@
   transition: all 0.3s ease;
   visibility: hidden;
 }
+
+@media screen and (min-width: 991px) {
+  .title-container > h1 {
+    font-size: 3rem;
+  }
+  .title-container > img {
+    height: 6rem;
+  }
+  .persona-container > ul {
+    width: 15rem;
+  }
+  .persona-icon {
+    height: 2rem;
+  }
+  .persona-icon:hover {
+    transform: scale(1.3);
+  }
+  .current-persona {
+    height: 3rem;
+  }
+}
