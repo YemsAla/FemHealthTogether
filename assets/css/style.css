@@ -335,168 +335,62 @@ main > section:nth-child(2n) {
   background-color: var(--accent);
 } */
 
-/* Symptoms Pages */
-
-.health-page {
-  margin-top: 110px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
+/*************************************************************************************************  Form ****************/
+#signup {
+  background-image: url("/assets/images/placeholders/couple-holding-hands.webp");
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
 }
 
-.title-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-bottom: 1rem;
+#signup-form {
+  color: #ffffff;
+  background-color: rgba(60, 60, 60, 0.6);
+  padding: 30px;
 }
 
-.title-container > img {
-  height: 4.5rem;
+#signup-form > h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
 }
 
-.title-container > h1 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  margin-right: 1rem;
-  color: #524ed2;
-}
-
-.persona-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.persona-container > ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 12rem;
-  margin: 0;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 0.5rem;
-}
-
-.persona-icon {
-  height: 1.5rem;
-}
-
-.persona-icon:hover {
-  height: 2.5rem;
-}
-
-.current-persona {
-  height: 2.5rem;
-}
-
-.intro-container {
-  text-align: center;
-  max-width: 60rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-}
-
-.body-plus-container {
+.text-input {
+  background: transparent;
+  color: #fafafa;
   width: 100%;
-  max-width: 380px;
-  position: relative;
-  margin: 0 auto;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
-.body-container {
+.radio-buttons {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.body {
-  margin-top: 4rem;
-  max-height: 80vh;
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #454b1b;
+  color: #fafafa;
 }
 
-.warning-info {
-  text-align: center;
-  max-width: 60rem;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  background-color: var(--primary);
-  padding: 1rem;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-.warning-info > p {
-  margin: 0;
-}
-
-/* Symptom specific */
-.symptom-icon {
-  height: 4rem;
+label {
   display: block;
-  position: absolute;
+  margin-bottom: 10px;
 }
-
-.symptom-icon:hover {
-  height: 6rem;
-}
-
-.symptom-placeholder {
-  display: block;
-  position: absolute;
-}
-
-#top-tip-trigger {
-  top: 0rem;
-  left: 4rem;
-}
-
-#women-mood {
-  top: 0rem;
-  right: 4rem;
-}
-
-#women-headache {
-  top: 5rem;
-  left: 0.5rem;
-}
-#women-sleep {
-  top: 5rem;
-  right: 0.5rem;
-}
-
-#women-brain-fog {
-  top: 10rem;
-  left: -0.5rem;
-}
-#women-mouth {
-  top: 10rem;
-  right: -0.5rem;
-}
-
-#women-hot-flush {
-  top: 16rem;
-  left: -1rem;
-}
-#women-heart {
-  top: 16rem;
-  right: -1rem;
-}
-
-#women-skin {
-  top: 22rem;
-  left: -1rem;
-}
-#women-vagina {
-  top: 22rem;
-  right: -1rem;
-}
-
-#women-sex {
-  top: 28rem;
-  left: 0rem;
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 #women-toilet {
   top: 28rem;
