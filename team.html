@@ -31,18 +31,13 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
-    <!-- Loader gif for waiting the page to load -->
-    <div class="loader">
-      <img src="assets/images/preloader.gif" alt="" />
-    </div>
     <!-- Header and navigation with bootstrap -->
     <header>
       <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container ">
+        <div class="container">
           <!-- Nav Logo Starts-->
-          <a href="index.html"
-            class="navbar-brand image-clickable">
-            <img src="assets/images/logo/logo-icon.png" alt="" height="60">
+          <a href="index.html" class="navbar-brand image-clickable">
+            <img src="assets/images/logo/logo-with-text.svg" alt="meno-together logo and name" height="60" />
           </a>
           <!-- Nav Logo Ends-->
           <!-- Hamburger Toggler -->
@@ -61,7 +56,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto fs-5">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -71,17 +66,17 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Health
+                  Menopause Support
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="symptoms-women.html">Women</a></li>
-                  <li><a class="dropdown-item" href="#">Partners</a></li>
-                  <li><a class="dropdown-item" href="#">Relatives</a></li>
-                  <li><a class="dropdown-item" href="#">Employers</a></li>
+                  <li><a class="dropdown-item" href="symptoms-women.html">For You</a></li>
+                  <li><a class="dropdown-item" href="symptoms-partner.html">For Partners</a></li>
+                  <li><a class="dropdown-item" href="symptoms-friend.html">For Friends & Relatives</a></li>
+                  <li><a class="dropdown-item" href="symptoms-workplace.html">For Workplace</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+                <a class="nav-link active" href="team.html">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -104,13 +99,18 @@
                     <h2>Meet The Team</h2>
                   </div>
                   <div class="my-4">
-                    <img src="assets/images/placeholders/brainstorm.png" alt="development team brainstorming">
+                    <img src="assets/images/placeholders/brainstorm.png" alt="development team brainstorming" />
                   </div>
-                  <p>Meno-together aims to transform the menopausal experience by creating a supportive and inclusive community where women and their loved ones can navigate this transition together with better knowledge, empathy and understanding.
-                    By addressing the informational needs of partners, colleagues and friends, the platform will contribute to a more compassionate and supportive environment for women during menopause in the UK and beyond.</p>
+                  <p>
+                    Meno-together aims to transform the menopausal experience by creating a supportive and inclusive
+                    community where women and their loved ones can navigate this transition together with better
+                    knowledge, empathy and understanding. By addressing the informational needs of partners, colleagues
+                    and friends, the platform will contribute to a more compassionate and supportive environment for
+                    women during menopause in the UK and beyond.
+                  </p>
                 </div>
               </div>
-            </div>  
+            </div>
           </div>
           <div class="row mt-4">
             <div class="col-lg-6 d-flex flex-column justify-content-center mb-4">
@@ -120,20 +120,41 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U048Q20JVA5-fbf362012505-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U048Q20JVA5-fbf362012505-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Lead Developer</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Meet Erik, our coding virtuoso and lead developer! With a penchant for fun and a knack for JavaScript wizardry, Erik spearheaded the creation of our dynamic 'Health' pages. When he's not busy crafting code, you can find him injecting doses of laughter into the team. Fun truly is his middle name!</p>
+                      Meet Erik, our coding virtuoso and lead developer! With a penchant for fun and a knack for
+                      JavaScript wizardry, Erik spearheaded the creation of our dynamic 'Health' pages. When he's not
+                      busy crafting code, you can find him injecting doses of laughter into the team. Fun truly is his
+                      middle name!
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/Erikas-Ramanauskas" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/Erikas-Ramanauskas"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/erikas-ramanauskas-full-stack-developer/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/erikas-ramanauskas-full-stack-developer/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -147,20 +168,41 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U04Q608HDRU-ff196f514da9-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U04Q608HDRU-ff196f514da9-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Content Curator & Developer</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Say hello to Georgina, our content guru and organizational maestro! With meticulous focus, she gathered all the content needed for our site and collaborated with Erik to develop the 'Health' pages. Georgina is the glue that holds our team together, always ready to lend a helping hand with issue resolution and support.</p>
+                      Say hello to Georgina, our content guru and organizational maestro! With meticulous focus, she
+                      gathered all the content needed for our site and collaborated with Erik to develop the 'Health'
+                      pages. Georgina is the glue that holds our team together, always ready to lend a helping hand with
+                      issue resolution and support.
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/GeorginaCarlisle" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/GeorginaCarlisle"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/georgina-carlisle-617b58268/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/georgina-carlisle-617b58268/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -174,20 +216,40 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U04AFFQCEAU-5f28472c6d17-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U04AFFQCEAU-5f28472c6d17-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Lead Designer</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Meet Tarah, our artistic powerhouse and lead designer! With an eye for aesthetics and a flair for creativity, Tarah crafted our site's logo and provided all the imagery with painstaking research. She's our in-house creative genius, bringing beauty and style to every pixel.</p>
+                      Meet Tarah, our artistic powerhouse and lead designer! With an eye for aesthetics and a flair for
+                      creativity, Tarah crafted our site's logo and provided all the imagery with painstaking research.
+                      She's our in-house creative genius, bringing beauty and style to every pixel.
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/tarahwaters" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/tarahwaters"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/tarahwaters" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/tarahwaters"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -201,20 +263,40 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="assets/images/profiles/rob-profile-pic.webp" alt="profile picture rob team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="assets/images/profiles/rob-profile-pic.webp"
+                      alt="profile picture rob team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">UI/UX Lead</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Introducing Rob, our master of design and user experience extraordinaire! As our UI/UX lead, Rob brought our vision to life with captivating wireframes and stunning designs for the Homepage and Team pages. Need a hand? Rob's always available to offer his expertise and creative flair.</p>
+                      Introducing Rob, our master of design and user experience extraordinaire! As our UI/UX lead, Rob
+                      brought our vision to life with captivating wireframes and stunning designs for the Homepage and
+                      Team pages. Need a hand? Rob's always available to offer his expertise and creative flair.
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/rkillickdev" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/rkillickdev"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/rob-killick-0a1b97267" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/rob-killick-0a1b97267"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -228,21 +310,40 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U06LBDQ95FT-9991929f0761-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U06LBDQ95FT-9991929f0761-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Contact Page Magician</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Say hello to Asif, our Contact Page magician and idea powerhouse! With his innovative nature and great ideas, Asif took charge of creating the Contact page form and thank you page. 
-                      His creativity knows no bounds, and his contributions have truly elevated our site.</p>
+                      Say hello to Asif, our Contact Page magician and idea powerhouse! With his innovative nature and
+                      great ideas, Asif took charge of creating the Contact page form and thank you page. His creativity
+                      knows no bounds, and his contributions have truly elevated our site.
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/Asifhirani38" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/Asifhirani38"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/asif-hirani-complianceofficer/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/asif-hirani-complianceofficer/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -256,22 +357,41 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U06JH81P46P-e387c3a99d3d-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U06JH81P46P-e387c3a99d3d-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Scrum Master & Team Coordinator</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Say hi to Yemi, our agile aficionado and team coordinator extraordinaire! Despite being new to coding and embarking on his first hackathon adventure, 
-                      Yemi took on the role of Scrum Master with enthusiasm. From defining our product vision to organizing team meetings, Yemi keeps our ship sailing smoothly.
-                      </p>
+                      Say hi to Yemi, our agile aficionado and team coordinator extraordinaire! Despite being new to
+                      coding and embarking on his first hackathon adventure, Yemi took on the role of Scrum Master with
+                      enthusiasm. From defining our product vision to organizing team meetings, Yemi keeps our ship
+                      sailing smoothly.
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/YemsAla" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/YemsAla"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/yemi-alade-ldn/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/yemi-alade-ldn/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -285,21 +405,41 @@
                 </div>
                 <div class="profile-container d-flex justify-content-between mb-2 h-100">
                   <div class="d-flex flex-column justify-content-center align-items-center">
-                    <img class="img-fluid rounded-circle p-4" src="https://ca.slack-edge.com/T0L30B202-U06J4444AF8-5aeffc4edd8d-512" alt="profile picture of team developer" width="250">
+                    <img
+                      class="img-fluid rounded-circle p-4"
+                      src="https://ca.slack-edge.com/T0L30B202-U06J4444AF8-5aeffc4edd8d-512"
+                      alt="profile picture of team developer"
+                      width="250"
+                    />
                   </div>
                   <div class="col d-flex flex-column justify-content-center align-items-center">
                     <h4 class="fs-6 mt-4 text-center px-4">Accessibility Advocate & Bug Buster</h4>
                     <p class="p-4 m-0 fst-italic fw-light text-center">
-                      Introducing Stefan, our accessibility champion and bug-busting guru! Despite joining us last minute, Stefan has been an invaluable asset to the team. With his keen eye for detail, he ensures our site is optimized for accessibility and tirelessly hunts down bugs. 
-                      Thanks for keeping us on track, Stefan!</p>
+                      Introducing Stefan, our accessibility champion and bug-busting guru! Despite joining us last
+                      minute, Stefan has been an invaluable asset to the team. With his keen eye for detail, he ensures
+                      our site is optimized for accessibility and tirelessly hunts down bugs. Thanks for keeping us on
+                      track, Stefan!
+                    </p>
                   </div>
                 </div>
                 <div class="card-footer">
                   <div class="d-flex justify-content-center gap-5">
-                    <a href="https://github.com/CsClown/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members GitHub page (opens in a new tab)">
+                    <a
+                      href="https://github.com/CsClown/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members GitHub page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-github fa-2x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/stefan-ruppe/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the team members LinkedIn page (opens in a new tab)">
+                    <a
+                      href="https://www.linkedin.com/in/stefan-ruppe/"
+                      class="icon-link"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Visit the team members LinkedIn page (opens in a new tab)"
+                    >
                       <i class="fa-brands fa-linkedin fa-2x"></i>
                     </a>
                   </div>
@@ -315,10 +455,23 @@
       <div class="container">
         <div class="row mb-3">
           <div class="social-links d-flex justify-content-center pt-4 gap-5">
-            <a href="https://github.com/YemsAla/Team5Hackathon" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the developer's GitHub page (opens in a new tab)">
+            <a
+              href="https://github.com/YemsAla/Team5Hackathon"
+              class="icon-link"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit the developer's GitHub page (opens in a new tab)"
+            >
               <i class="fa-brands fa-github nav-icon fa-3x"></i>
             </a>
-            <a href="https://hackathon.codeinstitute.net/teams/422/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit our Code Institute Hackathon Team Page(opens in a new tab)"><i class="fa-solid fa-people-group fa-3x"></i></a>
+            <a
+              href="https://hackathon.codeinstitute.net/teams/422/"
+              class="icon-link"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Code Institute Hackathon Team Page(opens in a new tab)"
+              ><i class="fa-solid fa-people-group fa-3x"></i
+            ></a>
           </div>
         </div>
         <div class="row pb-4">
