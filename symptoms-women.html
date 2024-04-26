@@ -30,13 +30,16 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome link -->
+    <script defer src="https://kit.fontawesome.com/9e2a74b83d.js" crossorigin="anonymous"></script>
+    
     <!-- standard Css -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/main-body.css" />
     <link rel="stylesheet" href="assets/css/woman-body.css" />
 
     <!-- page title -->
-    <title>Your Menopause</title>
+    <title>For You</title>
   </head>
 
   <body class="d-flex flex-column min-vh-100">
@@ -102,7 +105,7 @@
       <section class="intro-section">
         <div class="title-container">
           <img src="assets/images/logo/logo-image.svg" alt="Meno-Together logo" />
-          <h1>Your Menopause</h1>
+          <h1>For You</h1>
         </div>
         <div id="screen-check"></div>
 
@@ -115,12 +118,12 @@
               </a>
             </li>
             <li>
-              <a href="symptoms-women.html">
+              <a href="symptoms-partner.html">
                 <img class="persona-icon" src="assets/images/icons/support-roles/partner-icon.png" alt="Two people with heart Icon"/>
               </a>
             </li>
             <li>
-              <a href="symptoms-women.html">
+              <a href="symptoms-friend.html">
                 <img
                   class="persona-icon"
                   src="assets/images/icons/support-roles/friends-relatives-icon.png"
@@ -129,7 +132,7 @@
               </a>
             </li>
             <li>
-              <a href="symptoms-women.html">
+              <a href="symptoms-workplace.html">
                 <img class="persona-icon" src="assets/images/icons/support-roles/workplace-icon.png" alt="Two people around a desk"/>
               </a>
             </li>
@@ -162,78 +165,91 @@
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/01-mental-health.png"
+                    alt="Head with a lotus flower"
                   />
                   <img
                     data-symphtom-id="women-headache"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/02-headache.png"
+                    alt="Head with lightening bolt symbol"
                   />
                   <img
                     data-symphtom-id="women-sleep"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/03-sleep.png"
+                    alt="Moon and clock"
                   />
                   <img
                     data-symphtom-id="women-brain-fog"
                     onclick="openModal(event) "
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/04-brainstorming.png"
+                    alt="Head with thought bubble and question mark"
                   />
                   <img
                     data-symphtom-id="women-mouth"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/05-mouth.png"
+                    alt="Mouth with tongue out"
                   />
                   <img
                     data-symphtom-id="women-hot-flush"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/06-hot.png"
+                    alt="Face with water droplet and tongue out"
                   />
                   <img
                     data-symphtom-id="women-skin"
                     onclick="openModal(event)"
                     class="symptom-icon"
-                    src="assets/images/icons/symptoms/06-hot.png"
+                    src="assets/images/icons/symptoms/07-skin.png"
+                    alt="Skin"
                   />
                   <img
                     data-symphtom-id="women-heart"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/08-heart.png"
+                    alt="anatomical heart"
                   />
                   <img
                     data-symphtom-id="women-vagina"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/09-vagina-infection.png"
+                    alt="anatomical vagina"
                   />
                   <img
                     data-symphtom-id="women-sex"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/10-kissing.png"
+                    alt="Two people facing with heart above"
                   />
                   <img
                     data-symphtom-id="women-muscle"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/11-tai-chi-1.png"
+                    alt="person in tai chi pose"
                   />
                   <img
                     data-symphtom-id="women-bone"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/12-cartilage.png"
+                    alt="Two bones with cartilage between"
                   />
                   <img
                     data-symphtom-id="women-toilet"
                     onclick="openModal(event)"
                     class="symptom-icon"
                     src="assets/images/icons/symptoms/13-toilet.png"
+                    alt="toilet"
                   />
                 </div>
               </div>
@@ -339,7 +355,25 @@
       </div>
     </main>
 
-    <footer></footer>
+    <!-- Footer Starts -->
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="social-links d-flex justify-content-center pt-4 gap-5">
+            <a href="https://github.com/YemsAla/Team5Hackathon" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the developer's GitHub page (opens in a new tab)">
+              <i class="fa-brands fa-github nav-icon fa-3x"></i>
+            </a>
+            <a href="https://hackathon.codeinstitute.net/teams/422/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit our Code Institute Hackathon Team Page(opens in a new tab)"><i class="fa-solid fa-people-group fa-3x"></i></a>
+          </div>
+        </div>
+        <div class="row pb-4">
+          <div class="d-flex flex-column justify-content-center pt-2 align-items-center gap-1">
+            <p class="lead mb-auto">© developed by FemHealthTogether</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
