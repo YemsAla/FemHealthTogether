@@ -1,35 +1,33 @@
 img[data-symphtom-id="colleague-mood"].active {
-  top: calc(-30vh - 6rem);
-  left: calc(7vw + 4rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="colleague-headache"].active {
-  top: calc(-30vh - 6rem);
-  left: calc(-7vw - 4rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="colleague-sleep"].active {
   top: calc(-20vh - 3rem);
   left: calc(7vw + 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="colleague-brain-fog"].active {
-  top: calc(-18vh - 3rem);
+img[data-symphtom-id="colleague-headache"].active {
+  top: calc(-20vh - 3rem);
   left: calc(-7vw - 6rem);
   visibility: visible;
 }
 
+img[data-symphtom-id="colleague-sleep"].active {
+  left: calc(9vw + 7rem);
+  visibility: visible;
+}
+
+img[data-symphtom-id="colleague-brain-fog"].active {
+  left: calc(-9vw - 7rem);
+  visibility: visible;
+}
+
 img[data-symphtom-id="colleague-hot-flushes"].active {
-  top: calc(-10vh - 1rem);
-  left: calc(9vw + 6rem);
+  top: calc(20vh + 3rem);
+  left: calc(7vw + 6rem);
   visibility: visible;
 }
 
 img[data-symphtom-id="colleague-toilet"].active {
-  top: calc(-6vh - 1rem);
-  left: calc(-9vw - 6rem);
+  top: calc(20vh + 3rem);
+  left: calc(-7vw - 6rem);
   visibility: visible;
 }

@@ -1,40 +1,40 @@
 img[data-symphtom-id="friend-mood"].active {
-  top: calc(-30vh - 6rem);
-  left: calc(7vw + 4rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="friend-sleep"].active {
-  top: calc(-30vh - 6rem);
-  left: calc(-7vw - 4rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="friend-brain-fog"].active {
-  top: calc(-20vh - 3rem);
-  left: calc(7vw + 6rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="friend-hot-flush"].active {
   top: calc(-18vh - 3rem);
   left: calc(-7vw - 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="friend-skin"].active {
-  top: calc(-10vh - 1rem);
-  left: calc(9vw + 6rem);
+img[data-symphtom-id="friend-sleep"].active {
+  top: calc(-20vh - 3rem);
+  left: calc(7vw + 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="friend-heart"].active {
+img[data-symphtom-id="friend-brain-fog"].active {
   top: calc(-6vh - 1rem);
   left: calc(-9vw - 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="friend-toilet"].active {
+img[data-symphtom-id="friend-hot-flush"].active {
   left: calc(9vw + 7rem);
+  visibility: visible;
+}
+
+img[data-symphtom-id="friend-skin"].active {
+  top: calc(6vh + 1rem);
+  left: calc(-9vw - 6rem);
+  visibility: visible;
+}
+
+img[data-symphtom-id="friend-heart"].active {
+  top: calc(20vh + 3rem);
+  left: calc(7vw + 6rem);
+  visibility: visible;
+}
+
+img[data-symphtom-id="friend-toilet"].active {
+  top: calc(18vh + 3rem);
+  left: calc(-7vw - 6rem);
   visibility: visible;
 }
