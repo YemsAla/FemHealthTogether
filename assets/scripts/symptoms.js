@@ -16,7 +16,7 @@ function screenSizeCheck() {
 const modal = new bootstrap.Modal(`#Modal`, { keyboard: false });
 
 // On load
-fetch("../assets/data/page_data.json")
+fetch("assets/data/page_data.json")
   .then((response) => response.json())
   .then((data) => {
     // Add data to JSON variable
