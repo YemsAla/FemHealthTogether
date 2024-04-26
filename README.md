@@ -1,3 +1,5 @@
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 # FemHealthTogether
 
 ## Meno-together 
@@ -9,6 +11,12 @@ Menopause is a natural phase of life for women that typically occurs between the
 There is very little general knowledge available about it and unfortunately, it is often surrounded by misconceptions, stigma and lack of understanding, leading to women sometimes feeling embarrassed, isolated and unsupported during this transition. 
 
 Partners, colleagues and friends may not know how to recognize the symptoms of menopause or how to provide effective support, resulting in potentially strained relationships and decreased quality of life for women experiencing menopause.
+
+## Showcase
+
+![Am I Responsive?](/docs/femhealthtogether-responsive.webp "Am I Responsive? Website Mockup")
+
+A **deployed link** to the live website can be found here [Menopause-Together Live Website](https://yemsala.github.io/FemHealthTogether/index.html)
 
 ## Product Vision
 
