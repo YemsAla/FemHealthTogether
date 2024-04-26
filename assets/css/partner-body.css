@@ -1,76 +1,52 @@
-img[data-symphtom-id="women-mood"].active {
+img[data-symphtom-id="partner-mood"].active {
   top: calc(-30vh - 6rem);
   left: calc(7vw + 4rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-headache"].active {
+img[data-symphtom-id="partner-sleep"].active {
   top: calc(-30vh - 6rem);
   left: calc(-7vw - 4rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-sleep"].active {
+img[data-symphtom-id="partner-brain-fog"].active {
   top: calc(-20vh - 3rem);
   left: calc(7vw + 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-brain-fog"].active {
+img[data-symphtom-id="partner-skin"].active {
   top: calc(-18vh - 3rem);
   left: calc(-7vw - 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-mouth"].active {
+img[data-symphtom-id="partner-heart"].active {
   top: calc(-10vh - 1rem);
   left: calc(9vw + 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-hot-flush"].active {
+img[data-symphtom-id="partner-sex"].active {
   top: calc(-6vh - 1rem);
   left: calc(-9vw - 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-skin"].active {
+img[data-symphtom-id="partner-muscle"].active {
   left: calc(9vw + 7rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-heart"].active {
+img[data-symphtom-id="partner-bone"].active {
   top: calc(6vh + 1rem);
   left: calc(-9vw - 6rem);
   visibility: visible;
 }
 
-img[data-symphtom-id="women-vagina"].active {
+img[data-symphtom-id="partner-toilet"].active {
   top: calc(10vh + 1rem);
   left: calc(9vw + 6rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="women-sex"].active {
-  top: calc(20vh + 3rem);
-  left: calc(7vw + 6rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="women-muscle"].active {
-  top: calc(18vh + 3rem);
-  left: calc(-7vw - 6rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="women-bone"].active {
-  top: calc(30vh + 6rem);
-  left: calc(-8vw - 4rem);
-  visibility: visible;
-}
-
-img[data-symphtom-id="women-toilet"].active {
-  top: calc(30vh + 6rem);
-  left: calc(7vw + 4rem);
   visibility: visible;
 }

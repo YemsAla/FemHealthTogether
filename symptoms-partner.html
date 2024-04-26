@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Semantic tags for search engines -->
-    <meta name="description" content="coping with menopause, menopause, women's health, mood swings during menopause, partner support for menopause, menopause support groups pre menopause, post menopause" />
-    <meta name="keywords" content="menopause support,hormone replacement therapy (HRT),menopause diet, hot flashes relief,mood swings during menopause, menopause vaginal health" />
+    <meta
+      name="description"
+      content="coping with menopause, menopause, women's health, mood swings during menopause, partner support for menopause, menopause support groups pre menopause, post menopause"
+    />
+    <meta
+      name="keywords"
+      content="menopause support,hormone replacement therapy (HRT),menopause diet, hot flashes relief,mood swings during menopause, menopause vaginal health"
+    />
     <meta name="author" content="" />
 
     <!-- Favicon -->
@@ -24,25 +30,23 @@
       crossorigin="anonymous"
     />
 
-    <!-- Font Awesome link -->
-    <script defer src="https://kit.fontawesome.com/be71380b34.js" crossorigin="anonymous"></script>
-
     <!-- standard Css -->
-    <link rel="stylesheet" href="assets/css/partner.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main-body.css" />
+    <link rel="stylesheet" href="assets/css/partner-body.css" />
 
     <!-- page title -->
-    <title>Menopause facts for partners</title>
+    <title>Menopause facts for women</title>
   </head>
 
   <body class="d-flex flex-column min-vh-100">
     <!-- Header and navigation with bootstrap -->
     <header>
       <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container ">
+        <div class="container">
           <!-- Nav Logo Starts-->
-          <a href="index.html"
-            class="navbar-brand image-clickable">
-            <img src="assets/images/logo/logo-icon.png" alt="" height="60">
+          <a href="index.html" class="navbar-brand image-clickable">
+            <img src="assets/images/logo/logo-icon.png" alt="" height="60" />
           </a>
           <!-- Nav Logo Ends-->
           <!-- Hamburger Toggler -->
@@ -94,117 +98,235 @@
 
     <!-- Symptoms of menopause plus tips for women persona-->
     <main class="health-page">
-      
       <!-- Introduction -->
       <section class="intro-section">
         <div class="title-container">
-          <img src="assets/images/logo/logo-image.svg" alt="Meno-Together logo">
-          <h1>As a partner</h1>
+          <img src="assets/images/logo/logo-image.svg" alt="Meno-Together logo" />
+          <h1>As a women</h1>
         </div>
         <div id="screen-check"></div>
-        
 
         <!-- Switch Personas -->
         <div class="persona-container">
           <ul class="persona-list">
             <li>
               <a href="symptoms-women.html">
-                <img class="persona-icon" src="assets/images/icons/women-support/general/037-woman.png">
-              </a>
-            </li>
-            <li>
-              <a href="symptoms-partner.html">
-                <img class="current-persona" src="assets/images/icons/women-support/partner/003-kissing.png">
+                <img class="current-persona" src="assets/images/icons/women-support/general/037-woman.png" />
               </a>
             </li>
             <li>
               <a href="symptoms-women.html">
-                <img class="persona-icon" src="assets/images/icons/women-support/family-and-friends/027-friendship-1.png">
+                <img class="persona-icon" src="assets/images/icons/women-support/partner/003-kissing.png" />
               </a>
             </li>
             <li>
               <a href="symptoms-women.html">
-                <img class="persona-icon" src="assets/images/icons/women-support/workplace/041-computer.png">
+                <img
+                  class="persona-icon"
+                  src="assets/images/icons/women-support/family-and-friends/027-friendship-1.png"
+                />
               </a>
             </li>
-
+            <li>
+              <a href="symptoms-women.html">
+                <img class="persona-icon" src="assets/images/icons/women-support/workplace/041-computer.png" />
+              </a>
+            </li>
           </ul>
         </div>
 
         <!-- Introduction -->
         <div class="intro-container">
           <p>
-            The symptoms your partner experiences as she goes through menopause will be unique to her. 
-            Her mood and how she resonds to you may change, but this isn't necessarily in response to 
-            anything you have done and doesn't mean she loves you any less. By working together you can 
-            make this section of life more enjoyable for both of you.		
+            The symptoms of menopause shown below can appear daunting and unpleasant, but there are a number of things
+            you can do to ease and prevent symptoms. By understanding what is happening and being proactive in looking
+            after your body as well as talking to and seeking support from those around you, you can continue to be
+            yourself and enjoy life just as you have always done.
           </p>
         </div>
       </section>
 
-      <section class="body-plus-container">
+      <section class="body-plus-container container">
+        <div class="row">
+          <div class="col-lg-6 col d-flex justify-content-center" id="woman-body" data-pageID="partner_page">
+            <!-- Interactive body -->
+
+            <!-- Outline a placeholder only Eric working on -->
+            <div id="image-container">
+              <!-- Symptoms Icons surrounding body -->
+              <div id="icon-container">
+                <div id="icon-subcontainer">
+                  <img
+                    data-symphtom-id="partner-mood"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/01-mental-health.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-sleep"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/03-sleep.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-brain-fog"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/04-brainstorming.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-hot-flush"
+                    onclick="openModal(event) "
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/06-hot.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-skin"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/07-skin.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-heart"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/08-heart.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-vagina"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/09-vagina-infection.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-sex"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/10-kissing.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-muscle"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/11-tai-chi-1.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-bone"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/12-cartilage.png"
+                  />
+                  <img
+                    data-symphtom-id="partner-toilet"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/symptoms/13-toilet.png"
+                  />
+                </div>
+              </div>
+              <img class="xray-image" src="assets/images/organs/x-ray.png" alt="X-ray of a woman's body" />
+              <img
+                class="body-images"
+                data-body-part="bladder"
+                src="assets/images/organs/blader_highlight.png"
+                alt="Highlighted bladder in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="bones"
+                src="assets/images/organs/bones_highlight.png"
+                alt="Highlighted bones in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="brain"
+                src="assets/images/organs/brain_highlight.png"
+                alt="Highlighted brain in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="heart"
+                src="assets/images/organs/heart_highlight.png"
+                alt="Highlighted heart in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="mouth"
+                src="assets/images/organs/mouth_highlight.png"
+                alt="Highlighted mouth in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="muscle"
+                src="assets/images/organs/muscle_highlight.png"
+                alt="Highlighted muscles in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="vagina"
+                src="assets/images/organs/vagina_highlight.png"
+                alt="Highlighted vagina in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="veins"
+                src="assets/images/organs/veins_highlight.png"
+                alt="Highlighted veins in a woman's body"
+              />
+              <img
+                class="body-images"
+                data-body-part="skin"
+                src="assets/images/organs/skin_highlight.png"
+                alt="Highlighted veins in a woman's body"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title message-name">Find out more</h5>
+                <p class="card-text message-description">
+                  Click on an icon surrounding to learn more about the symptoms of Menopause.
+                </p>
+              </div>
+              <div class="card-footer"><p class="message-tip">Plus pick up some tips!</p></div>
+            </div>
+          </div>
+        </div>
 
         <!-- Sympton modal -->
-        <div id="symptom-modal" class="symptom-modal">
-          <div id="close" class="close">
-            <i class="fa-solid fa-x close-icon"></i>
-          </div>
-          <!-- Modal content -->
-          <div class="modal-content">
-            <h2 id="symptom-name">Find out more</h2>
-            <p id="symptom-description">Click on an icon surrounding to learn more about the symptoms of Menopause.</p>
-            <p id="symtpom-tip" class="tip">Plus pick up some tips!</p>
+
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="symptom-name" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title message-name fs-5" id="symptom-name">Find out more</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="message-description">
+                  Click on an icon surrounding to learn more about the symptoms of Menopause.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <p class="message-tip">Plus pick up some tips!</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <!-- Interactive body -->
-        <div class="body-container" id="partner-body">
-          <!-- Outline a placeholder only Eric working on -->
-          <img class="body" src="assets/images/body-diagram.png" alt="Outline image of a woman's body">
-          <!-- Top Tip Icon -->
-          <p id="partner-tip" class="symptom-placeholder symptom-icon">
-            Top Tip
-          </p>
-          <!-- Symptoms Icons surrounding body -->
-          <img id="partner-mood" class="symptom-icon" src="assets/images/icons/healthy-life/005-mental health.png">
-          
-          <img id="partner-sleep" class="symptom-icon" src="assets/images/icons/healthy-life/015-sleep.png">
-          <p id="partner-brain-fog" class="symptom-placeholder symptom-icon">Forgetful</p>
-          
-          <p id="partner-hot-flush" class="symptom-placeholder symptom-icon">Hot flush</p>
-          <img id="partner-skin" class="symptom-icon" src="assets/images/icons/body-symptoms/002-skin.png">
-          <img id="partner-heart" class="symptom-icon" src="assets/images/icons/body-symptoms/013-heart.png">
-          <img id="partner-vagina"class="symptom-icon" src="assets/images/icons/body-symptoms/009-vagina.png">
-          <img id="partner-sex" class="symptom-icon" src="assets/images/icons/women-support/partner/032-kissing-5.png">
-          <img id="partner-muscle" class="symptom-icon" src="assets/images/icons/body-symptoms/028-muscle.png">
-          <img id="partner-bone" class="symptom-icon" src="assets/images/icons/body-symptoms/022-cartilage.png">
-          <img id="partner-toilet" class="symptom-icon" src="assets/images/icons/body-symptoms/012-bladder.png">
-        </div>
-
-        <div class="modal-placeholder"></div>
       </section>
+
+      <!-- Warning -->
+      <div class="warning-info">
+        <p>
+          If there are any symptoms concerning you, or any tips you wish to try out, please carry out your own
+          independent reasearch first. The information provided on this page is a brief guide to start you on your own
+          journey towards better understanding the menopause.
+        </p>
+      </div>
     </main>
 
-        <!-- Footer Starts -->
-        <footer class="mt-auto">
-            <div class="container">
-              <div class="row mb-3">
-                <div class="social-links d-flex justify-content-center pt-4 gap-5">
-                  <a href="https://github.com/YemsAla/Team5Hackathon" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the developer's GitHub page (opens in a new tab)">
-                    <i class="fa-brands fa-github nav-icon fa-3x"></i>
-                  </a>
-                  <a href="https://hackathon.codeinstitute.net/teams/422/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit our Code Institute Hackathon Team Page(opens in a new tab)"><i class="fa-solid fa-people-group fa-3x"></i></a>
-                </div>
-              </div>
-              <div class="row pb-4">
-                <div class="d-flex flex-column justify-content-center pt-2 align-items-center gap-1">
-                  <p class="lead mb-auto">© developed by FemHealthTogether</p>
-                </div>
-              </div>
-            </div>
-          </footer>
-          <!-- Footer Ends -->
+    <footer></footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -216,6 +338,7 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script defer src="assets/scripts/jsonData.js"></script>
     <script defer src="assets/scripts/symptoms.js"></script>
   </body>
 </html>
