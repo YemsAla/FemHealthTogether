@@ -147,139 +147,152 @@
 
       <section class="body-plus-container container">
         <div class="row">
-          <div class="col-md-6 col d-flex justify-content-center" id="woman-body" data-pageID="woman_page">
+          <div class="col-lg-6 col d-flex justify-content-center" id="woman-body" data-pageID="woman_page">
             <!-- Interactive body -->
 
             <!-- Outline a placeholder only Eric working on -->
-            <div id="image-container" class="">
+            <div id="image-container">
+              <!-- Symptoms Icons surrounding body -->
+              <div id="icon-container">
+                <div id="icon-subcontainer">
+                  <img
+                    data-symphtom-id="women-mood"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/healthy-life/005-mental health.png"
+                  />
+                  <img
+                    data-symphtom-id="women-headache"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/healthy-life/005-mental health.png"
+                  />
+                  <img
+                    data-symphtom-id="women-sleep"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/healthy-life/015-sleep.png"
+                  />
+                  <img
+                    data-symphtom-id="women-brain-fog"
+                    onclick="openModal(event) "
+                    class="symptom-icon"
+                    src="assets/images/icons/healthy-life/005-mental health.png"
+                  />
+                  <img
+                    data-symphtom-id="women-mouth"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/003-lips.png"
+                  />
+                  <img
+                    data-symphtom-id="women-hot-flush"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/healthy-life/005-mental health.png"
+                  />
+                  <img
+                    data-symphtom-id="women-skin"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/002-skin.png"
+                  />
+                  <img
+                    data-symphtom-id="women-heart"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/013-heart.png"
+                  />
+                  <img
+                    data-symphtom-id="women-vagina"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/009-vagina.png"
+                  />
+                  <img
+                    data-symphtom-id="women-sex"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/women-support/partner/032-kissing-5.png"
+                  />
+                  <img
+                    data-symphtom-id="women-muscle"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/028-muscle.png"
+                  />
+                  <img
+                    data-symphtom-id="women-bone"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/022-cartilage.png"
+                  />
+                  <img
+                    data-symphtom-id="women-toilet"
+                    onclick="openModal(event)"
+                    class="symptom-icon"
+                    src="assets/images/icons/body-symptoms/012-bladder.png"
+                  />
+                </div>
+              </div>
               <img class="xray-image" src="assets/images/organs/x-ray.png" alt="X-ray of a woman's body" />
               <img
                 class="body-images"
+                data-body-part="bladder"
                 src="assets/images/organs/blader_highlight.png"
                 alt="Highlighted bladder in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="bones"
                 src="assets/images/organs/bones_highlight.png"
                 alt="Highlighted bones in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="brain"
                 src="assets/images/organs/brain_highlight.png"
                 alt="Highlighted brain in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="heart"
                 src="assets/images/organs/heart_highlight.png"
                 alt="Highlighted heart in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="mouth"
                 src="assets/images/organs/mouth_highlight.png"
                 alt="Highlighted mouth in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="muscle"
                 src="assets/images/organs/muscle_highlight.png"
                 alt="Highlighted muscles in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="vagina"
                 src="assets/images/organs/vagina_highlight.png"
                 alt="Highlighted vagina in a woman's body"
               />
               <img
                 class="body-images"
+                data-body-part="veins"
                 src="assets/images/organs/veins_highlight.png"
                 alt="Highlighted veins in a woman's body"
               />
-            </div>
-            <!-- Symptoms Icons surrounding body -->
-            <div>
               <img
-                data-symphtom-id="women-mood"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/healthy-life/005-mental health.png"
-              />
-              <img
-                data-symphtom-id="women-headache"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/healthy-life/005-mental health.png"
-              />
-
-              <img
-                data-symphtom-id="women-sleep"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/healthy-life/015-sleep.png"
-              />
-              <img
-                data-symphtom-id="women-brain-fog"
-                onclick="openModal(event) "
-                class="symptom-icon"
-                src="assets/images/icons/healthy-life/005-mental health.png"
-              />
-
-              <img
-                data-symphtom-id="women-mouth"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/003-lips.png"
-              />
-              <img
-                data-symphtom-id="women-hot-flush"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/healthy-life/005-mental health.png"
-              />
-
-              <img
-                data-symphtom-id="women-skin"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/002-skin.png"
-              />
-              <img
-                data-symphtom-id="women-heart"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/013-heart.png"
-              />
-              <img
-                data-symphtom-id="women-vagina"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/009-vagina.png"
-              />
-              <img
-                data-symphtom-id="women-sex"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/women-support/partner/032-kissing-5.png"
-              />
-              <img
-                data-symphtom-id="women-muscle"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/028-muscle.png"
-              />
-              <img
-                data-symphtom-id="women-bone"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/022-cartilage.png"
-              />
-              <img
-                data-symphtom-id="women-toilet"
-                onclick="openModal(event)"
-                class="symptom-icon"
-                src="assets/images/icons/body-symptoms/012-bladder.png"
+                class="body-images"
+                data-body-part="skin"
+                src="assets/images/organs/skin_highlight.png"
+                alt="Highlighted veins in a woman's body"
               />
             </div>
           </div>
-          <div class="col-md-6 d-none d-md-block test">
+          <div class="col-lg-6 d-none d-lg-block">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title message-name">Find out more</h5>
