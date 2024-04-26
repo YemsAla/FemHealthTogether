@@ -1,58 +1,12 @@
 "use strict";
 
 // Global variables
-let JsonData;
 let modalOpen = false;
 let screen;
-let page;
-
-//Called on load
-function screenSizeCheck() {
-  // Check page on
-  page = document.getElementById("woman-body").getAttribute("data-pageID");
-}
+let page = document.getElementById("woman-body").getAttribute("data-pageID");
 
 // modal opening code
 const modal = new bootstrap.Modal(`#Modal`, { keyboard: false });
-
-// On load
-fetch("assets/data/page_data.json")
-  .then((response) => response.json())
-  .then((data) => {
-    // Add data to JSON variable
-    console.log("loaded 1", data);
-    // Check page on and screensize, then render top tip if on desktop
-    screenSizeCheck();
-  })
-  .catch((error) => {
-    console.error("Error fetching JSON:", error);
-  });
-
-// On load
-fetch("../assets/data/page_data.json")
-  .then((response) => response.json())
-  .then((data) => {
-    // Add data to JSON variable
-    console.log("loaded 2", data);
-    // Check page on and screensize, then render top tip if on desktop
-    screenSizeCheck();
-  })
-  .catch((error) => {
-    console.error("Error fetching JSON:", error);
-  });
-
-// On load
-fetch("/assets/data/page_data.json")
-  .then((response) => response.json())
-  .then((data) => {
-    // Add data to JSON variable
-    console.log("loaded 3", data);
-    // Check page on and screensize, then render top tip if on desktop
-    screenSizeCheck();
-  })
-  .catch((error) => {
-    console.error("Error fetching JSON:", error);
-  });
 
 // On load of desktop view and on clicking top tip icon
 function topTip() {
@@ -105,13 +59,11 @@ function openModal(event) {
     i++;
   }
 
-  console.log(infoObject);
-
   showBodyPart(infoObject.area);
 }
 
 function findObjectById(id) {
-  return JsonData[page].find(function (obj) {
+  return JSONDATA[page].find(function (obj) {
     return obj.id === id;
   });
 }
@@ -142,7 +94,7 @@ function observerAcctivation(entries, observer) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       staggeredTimeout();
-      console.log("Threshold reached!");
+
       // Disconnect the observer if needed
       observer.disconnect();
     }
