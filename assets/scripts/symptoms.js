@@ -16,11 +16,37 @@ function screenSizeCheck() {
 const modal = new bootstrap.Modal(`#Modal`, { keyboard: false });
 
 // On load
+fetch("assets/data/page_data.json")
+  .then((response) => response.json())
+  .then((data) => {
+    // Add data to JSON variable
+    console.log("loaded 1", data);
+    // Check page on and screensize, then render top tip if on desktop
+    screenSizeCheck();
+  })
+  .catch((error) => {
+    console.error("Error fetching JSON:", error);
+  });
+
+// On load
 fetch("../assets/data/page_data.json")
   .then((response) => response.json())
   .then((data) => {
     // Add data to JSON variable
-    JsonData = data;
+    console.log("loaded 2", data);
+    // Check page on and screensize, then render top tip if on desktop
+    screenSizeCheck();
+  })
+  .catch((error) => {
+    console.error("Error fetching JSON:", error);
+  });
+
+// On load
+fetch("/assets/data/page_data.json")
+  .then((response) => response.json())
+  .then((data) => {
+    // Add data to JSON variable
+    console.log("loaded 3", data);
     // Check page on and screensize, then render top tip if on desktop
     screenSizeCheck();
   })
