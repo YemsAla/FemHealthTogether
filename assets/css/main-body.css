@@ -55,7 +55,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 12rem;
   margin: 0;
   border: 2px solid black;
   border-radius: 10px;
@@ -63,17 +62,21 @@
 }
 
 .persona-icon {
+  margin: 0.5rem;
   height: 1.5rem; /* Adjust values as needed */
   transition: filter 0.3s ease;
+}
+
+.active-link {
+  filter: drop-shadow(2px 2px 4px var(--secondary)) drop-shadow(2px -2px 4px var(--secondary))
+    drop-shadow(-2px 2px 4px var(--secondary)) drop-shadow(-2px 2px 4px var(--secondary));
+  transform: scale(1.2);
 }
 
 .persona-icon:hover {
   filter: drop-shadow(2px 2px 5px var(--background)) drop-shadow(2px -2px 5px var(--background))
     drop-shadow(-2px 2px 5px var(--background)) drop-shadow(-2px 2px 5px var(--background));
-}
-
-.persona-icon:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .symptom-icon {
@@ -118,9 +121,6 @@
   }
   .persona-icon:hover {
     transform: scale(1.3);
-  }
-  .current-persona {
-    height: 3rem;
   }
 }
 
