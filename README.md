@@ -107,6 +107,7 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 - **HTML5**
 - **CSS**
 - **Bootstrap**
+- **JavaScript**
 
 - [GitHub and Github Pages](https://github.com/) - used to securely store the code and to host and deploy the live project
 - [GitPod](https://www.gitpod.io/) - used as a cloud-based IDE for development
