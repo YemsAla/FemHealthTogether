@@ -94,6 +94,28 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) and u
 
 These evolved slightly throughout the planning phase.  The first draft can be viewed [here](docs/wireframes/meno-together-mobile-draft1.png)
 
+## Tools and Technologies Used:
+
+- **HTML5**
+- **CSS**
+- **Bootstrap**
+
+- [GitHub and Github Pages](https://github.com/) - used to securely store the code and to host and deploy the live project
+- [GitPod](https://www.gitpod.io/) - used as a cloud-based IDE for development
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - used for testing and troublshooting code, along with Lighthouse auditing
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create wireframes during project planning
+- [redketchup.io](https://redketchup.io/) - used for resizing and converting image files to webp format
+- [Canva](https://www.canva.com/) - used to create logo, hero images
+- [Coolors](https://coolors.co/) - used to generate a color palette for the website design
+- [TinyPNG](https://tinypng.com/) - converting and compressing images
+- [Canva](https://www.canva.com/) - used to design and edit the card images, gifs and pdf resources used in the game
+- [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
+- [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
+
+## Credits
+- [Adobe Stock Images](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Azip_vector%5D=true&hide_panel=true&k=body+outline&search_type=usertyped&asset_id=740103554) - for body diagram image
+- [Flaticon icons](https://www.flaticon.com/authors/basic-accent/lineal-color) - colourful link icons made by [Freepik](https://www.freepik.com/) and accessible through Flaticon, free for usage with credit reference
+
 ## References
 
 - Source: National Institute for Health and Care Excellence (NICE), "Menopause: Diagnosis and Management" (2015). [Link - https://www.nice.org.uk/guidance/ng23]
