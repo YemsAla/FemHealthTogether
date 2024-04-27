@@ -33,7 +33,7 @@ Role: Content Curator & Developer
 [GitHub](https://github.com/GeorginaCarlisle) - [LinkedIn](https://www.linkedin.com/in/georgina-carlisle-617b58268/)
 
 **Tarah Waters**
-Role: Scrum Master & Team Coordinator
+Role: Lead Designer
 [GitHub](https://github.com/tarahwaters) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
 
 **Rob Killick**
