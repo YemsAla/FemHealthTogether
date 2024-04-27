@@ -38,7 +38,7 @@ Role: Lead Designer
 
 **Rob Killick**
 Role: UX/UI Lead
-[GitHub](https://github.com/rkillickdev) - [LinkedIn](https://www.linkedin.com/in/rob-killick-0a1b97267/)
+[GitHub](https://github.com/rkillickdev) - [LinkedIn](https://www.linkedin.com/in/rob-killick-7178262a/)
 
 **Asif Hirani**
 Role: Contact Page Magician
