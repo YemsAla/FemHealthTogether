@@ -5,8 +5,8 @@ const JSONDATA = {
       symptom: "Mood and mental health",
       area: "brain",
       description:
-        "Fluctuating hormones can cause mood swings and anxiety, with these fluctuations effecting some women more than others. Many women also report low self-esteem.",
-      tips: "Talk to your partner or freinds about how you are feeling. Look at ways to reduce stress, this could include getting more sleep, making changes to your lifestyle or using stress management techniques. Regular exercise has been shown to reduce mood swings.",
+        "Fluctuating hormones can cause mood swings and anxiety, with these fluctuations effecting some more than others. Many also report low self-esteem.",
+      tips: "Talk to your partner or friends about how you are feeling. Look at ways to reduce stress, this could include getting more sleep, making changes to your lifestyle or using stress management techniques. Regular exercise has been shown to reduce mood swings.",
       icon: "01-mental-health",
     },
     {
@@ -41,7 +41,7 @@ const JSONDATA = {
       symptom: "Mouth problems",
       area: "mouth",
       description:
-        "Dropping oestrogen levels can cause some women to develop a common type of gum disease called gingivitus. This is where the gums become inflamed and sensitive, and you may experince bleeding. A decrease in bone density can also cause a slight reduction in the size of your jaw bone, leading to some movement of your teeth. ",
+        "Dropping oestrogen levels can cause some individuals to develop a common type of gum disease called gingivitus. This is where the gums become inflamed and sensitive, and you may experince bleeding. A decrease in bone density can also cause a slight reduction in the size of your jaw bone, leading to some movement of your teeth. ",
       tips: "Monitor your gum health, and be aware of any changes in your mouth. If you are at all concerned speak to your dentist to prevent further symptoms and deterioration.",
       icon: "05-mouth",
     },
@@ -103,7 +103,7 @@ const JSONDATA = {
       symptom: "Osteoporosis",
       area: "bones",
       description:
-        "Testosterone supports and increases bone density and Oestrogen regulates new bone growth. A reduction in levels of both these hormones increases a woman's risk of developing Osteoporosis (weakening of the bones) which in turn increases the risk of fractures and arthritis (which can manifest as joint pain).",
+        "Testosterone supports and increases bone density and Oestrogen regulates new bone growth. A reduction in levels of both these hormones increases the risk of developing Osteoporosis (weakening of the bones) which in turn increases the risk of fractures and arthritis (which can manifest as joint pain).",
       tips: "Have calcium-rich food like milk, yoghurt and kale to keep bones healthy. Exercise regularly, try including weight-bearing activities where your feet and legs support your weight like walking, running or dancing.",
       icon: "12-cartilage",
     },
@@ -124,7 +124,7 @@ const JSONDATA = {
       area: "brain",
       description:
         "Your partner's hormone levels will fluctuate before, during and after menopause which can cause mood swings and anxiety. Your partner's self-esteem may also be effected.",
-      tips: "Boost self-esteem and tell her that you still love her. Highlight all the things that you love about her and offer compliments about the things that she is good at.",
+      tips: "Boost self-esteem and tell them that you still love them. Highlight all the things that you love about your partner and offer compliments about the things that they are good at.",
     },
     {
       id: "partner-sleep",
@@ -132,15 +132,15 @@ const JSONDATA = {
       area: "brain",
       description:
         "Symptoms such as hot flushes during the night (night sweats), changes in mood, joint aches and pains as while as the underlying hormone changes may be causing a lot of disruption to your partner's sleep. This lack of sleep will then lead to tiredness and irritability among other things.",
-      tips: "Your support and understanding will be key here, but there are also other things you can do to help. Keeping your bedroom cool at night. Reducing stress levels. Eating a healthy diet together. Regularly exercising together and encouraging your partner to take part in social activities and activies that will stimulate her intellect.",
+      tips: "Your support and understanding will be key here, but there are also other things you can do to help. Keeping your bedroom cool at night. Reducing stress levels. Eating a healthy diet together. Regularly exercising together and encouraging your partner to take part in social activities and activies that will stimulate their intellect.",
     },
     {
       id: "partner-brain-fog",
       symptom: "Brain Fog",
       area: "brain",
       description:
-        "Dropping levels of the hormones estrogen and testosterone, which play a role in cognition and memory can lead to brain fog. This may make it harder for your partner to maintain her focus, and she may also experience confusion and forgetfulness.",
-      tips: "Moments of forgetfulness and confusion could prove distressing and your support, reassurance and understanding will be invaluable. Helping her keep track of tasks and appointments can also reduce the impact of brain fog. Eating healthy together could lead to a big improvement with clear links between diet and brain health. For example polyunsaturated fatty acids, such as Omega 3 and Omega 6 which are found in eggs, fish, nuts and seeds, and antiosidants.",
+        "Dropping levels of the hormones estrogen and testosterone, which play a role in cognition and memory can lead to brain fog. This may make it harder for your partner to maintain their focus, and they may also experience confusion and forgetfulness.",
+      tips: "Moments of forgetfulness and confusion could prove distressing and your support, reassurance and understanding will be invaluable. Helping your partner keep track of tasks and appointments can also reduce the impact of brain fog. Eating healthy together could lead to a big improvement with clear links between diet and brain health. For example polyunsaturated fatty acids, such as Omega 3 and Omega 6 which are found in eggs, fish, nuts and seeds, and antiosidants.",
     },
     {
       id: "partner-hot-flush",
@@ -148,7 +148,7 @@ const JSONDATA = {
       area: "skin",
       description:
         "It is likely that your partner will experience hot flashes at some point. Hot flushes can include a feeling of intense heat, sweating, flushed cheeks, increased heart rate, and even tingling.",
-      tips: "Hot flushes are often triggered by things like stress, alcohol, caffeine and spices. You may be able to help your partner pin point what is triggering her hot flushes and support her in then reducing these. Regularly exercising together may also help.",
+      tips: "Hot flushes are often triggered by things like stress, alcohol, caffeine and spices. You may be able to help your partner pin point what is triggering their hot flushes and support them in then reducing these. Regularly exercising together may also help.",
     },
     {
       id: "partner-skin",
@@ -171,15 +171,15 @@ const JSONDATA = {
       symptom: "Vaginal dryness",
       area: "vagina",
       description:
-        "Secretion of vaginal lubrication is controlled by the hormone estrogen and so as estrogen levels drop this can cause dryness and thinning of the tissues of the vagina, leaving your partner more vulnerable to infection. She may also begin to experience pain during sex. These symptoms are found more in the postmenopause stage. ",
-      tips: "If your partner is experiencing vaginal dryness encourage her to seek specific treatment by speaking to the doctor or pharmacist. Regular sexual activity or vaginal stimulation — with or without a partner — helps to maintain healthy vaginal tissues. Follow your partner's lead in this area, showing your support and love and allowing her to set what she feels comfortable with.",
+        "Secretion of vaginal lubrication is controlled by the hormone estrogen and so as estrogen levels drop this can cause dryness and thinning of the tissues of the vagina, leaving your partner more vulnerable to infection. They may also begin to experience pain during sex. These symptoms are found more in the postmenopause stage. ",
+      tips: "If your partner is experiencing vaginal dryness encourage them to seek specific treatment by speaking to their doctor or pharmacist. Regular sexual activity or vaginal stimulation — with or without a partner — helps to maintain healthy vaginal tissues. Follow your partner's lead in this area, showing your support and love and allowing them to set what they feel comfortable with.",
     },
     {
       id: "partner-sex",
       symptom: "Reduced Sex drive",
       area: "vagina",
       description: "Your partner may experience a loss of sexual desire or sex drive (libido).",
-      tips: "Be understanding that this is not due to anything on your part, but because of how her hormones are changing and the effect of other symptoms. Talk together about how this is making you feel and explore different ways to feel close to each other. Prioritise spending more time together generally.",
+      tips: "Be understanding that this is not due to anything on your part, but because of how their hormones are changing and the effect of other symptoms. Talk together about how this is making you feel and explore different ways to feel close to each other. Prioritise spending more time together generally.",
     },
     {
       id: "partner-muscle",
@@ -195,7 +195,7 @@ const JSONDATA = {
       area: "bones",
       description:
         "Your partner will be at an increased risk of developing Osteoporosis (weakening of the bones) which in turn increases the risk of fractures and arthritis (which can manifest as joint pain).",
-      tips: "A diet containing calcium-rich food like milk, yoghurt and kale  help keep bones healthy. Exercising regularly, including weight-bearing activities where your feet and legs support your weight like walking, running or dancing will also help to keep bones strong. Making the changes with you alongside her will make it easier to keep them up as well as providing shared experiences for you both.",
+      tips: "A diet containing calcium-rich food like milk, yoghurt and kale help keep bones healthy. Exercising regularly, including weight-bearing activities will also help to keep bones strong. Making the changes with you alongside them will make it easier for your partner to keep them up as well as providing shared experiences for you both.",
     },
     {
       id: "partner-toilet",
@@ -203,7 +203,7 @@ const JSONDATA = {
       area: "bladder",
       description:
         "Relaxation and weakening of the pelvic muscles, alongside other factors which put added stress on the muscles around the pelvis and bladder can lead to incontinence. There are different types of incontinence such as stress incontinence, urgency urinary incontinence and overactive bladder.",
-      tips: "This can be distressing and embarrassing for your partner and what she needs is your empathy and support. There are lots of treatment options for things that can help with this issue, so encourage her to explore these if she is not already doing so.",
+      tips: "This can be distressing and embarrassing for your partner and what they need is your empathy and support. There are lots of treatment options for things that can help with this issue, so encourage your partner to explore these if they are not already doing so.",
     },
   ],
   friend_relative_page: [
@@ -222,7 +222,7 @@ const JSONDATA = {
       area: "veins",
       description:
         "Your friend/relation may be tired, lacking in energy and more irritable due to a range of symptoms making it harder to sleep.",
-      tips: "Show understanding and empathy and be ready to listen. Having someone to talk may help them work out what to try in order to improve their sleep.",
+      tips: "Show understanding and empathy and be ready to listen. Having someone to talk to may help them work out what to try in order to improve their sleep.",
       icons: "03-sleep",
     },
     {
@@ -240,7 +240,7 @@ const JSONDATA = {
       area: "skin",
       description:
         "Your friend/relative is likely to experience hot flashes at some point. Hot flushes can include a feeling of intense heat, sweating, flushed cheeks, increased heart rate, and even tingling.",
-      tips: "Hot flushes are often triggered by things like stress, alcohol, caffeine and spices. You may be able to help your friend/relative pin point what is triggereing her hot flushes. Support and understanding during a hot flush will also prove valuable.",
+      tips: "Hot flushes are often triggered by things like stress, alcohol, caffeine and spices. You may be able to help your friend/relative pin point what is triggereing their hot flushes. Support and understanding during a hot flush will also prove valuable.",
       icons: "06-hot",
     },
     {
@@ -265,7 +265,7 @@ const JSONDATA = {
       symptom: "Frequently needing the loo",
       area: "bladder",
       description: "Your friend/relative may be experiencing some level of incontinence.",
-      tips: "This can be distressing and embarrassing and what your friend/relative will need is your empathy and understanding. It may be that having the chance to chat to you about these issues may help, but it may also be an area she is reluctant to discuss.",
+      tips: "This can be distressing and embarrassing and what your friend/relative will need is your empathy and understanding. It may be that having the chance to chat to you about these issues may help, but it may also be an area they are reluctant to discuss.",
       icons: "13-toilet",
     },
   ],
@@ -275,7 +275,7 @@ const JSONDATA = {
       symptom: "Mood and Mental Health",
       area: "brain",
       description: "Your colleague may experience mood swings and anxiety, and their level of self-esteem may fall.",
-      tips: "Take extra time to compliment your colleague's work, and praise the contribution she makes to your team. If she goes through periods of being more emotional, your empathy and understanding will make this easier for her.",
+      tips: "Take extra time to compliment your colleague's work, and praise the contribution they make to your team. They may go through periods of being more emotional and will appreciate your empathy and understanding.",
       icons: "01-mental-health",
     },
     {
@@ -299,7 +299,7 @@ const JSONDATA = {
       symptom: "Brain Fog",
       area: "brain",
       description: "Your colleague may struggle to focus as well as they used and may forget things.",
-      tips: "Provide more time for your colleague to prepare before meetings, appointments or engagements. Also be aware that your colleague could find this distressing and embarrassing. ",
+      tips: "Provide more time for your colleague to prepare before meetings, appointments or engagements. Also be aware that your colleague could find this distressing and embarrassing.",
       icons: "04-brainstorming",
     },
     {
