@@ -18,6 +18,36 @@ Partners, colleagues and friends may not know how to recognize the symptoms of m
 
 A **deployed link** to the live website can be found here [Menopause-Together Live Website](https://yemsala.github.io/FemHealthTogether/index.html)
 
+## Developers
+
+**Yemi Alade**
+Role: Scrum Master & Team Coordinator
+[GitHub](https://github.com/YemsAla) - [LinkedIn](https://www.linkedin.com/in/yemi-alade-ldn/)
+
+**Erikas Ramanauskas**
+Role: Lead Developer
+[GitHub](https://github.com/Erikas-Ramanauskas) - [LinkedIn](https://www.linkedin.com/in/erikas-ramanauskas-full-stack-developer/)
+
+**Georgina Carlisle**
+Role: Content Curator & Developer
+[GitHub](https://github.com/GeorginaCarlisle) - [LinkedIn](https://www.linkedin.com/in/georgina-carlisle-617b58268/)
+
+**Tarah Waters**
+Role: Lead Designer
+[GitHub](https://github.com/tarahwaters) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
+
+**Rob Killick**
+Role: UX/UI Lead
+[GitHub](https://github.com/rkillickdev) - [LinkedIn](https://www.linkedin.com/in/rob-killick-0a1b97267/)
+
+**Asif Hirani**
+Role: Contact Page Magician
+[GitHub](https://github.com/Asifhirani38) - [LinkedIn](https://www.linkedin.com/in/asif-hirani-complianceofficer/)
+
+**Stefan Ruppe**
+Role: Accessibility Advocate & Bug Buster
+[GitHub](https://github.com/CsClown/) - [LinkedIn](https://www.linkedin.com/in/stefan-ruppe/)
+
 ## Product Vision
 
 Meno-together aims to bridge the current gap in understanding and support for women going through menopause by providing comprehensive information and resources for partners & other surrounding groups, such as colleagues and friends. 
