@@ -155,6 +155,7 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 - [TinyPNG](https://tinypng.com/) - converting and compressing images
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
+- [PhotoPea](https://www.photopea.com/) - used to remove backgrounds and editing of images
 
 ## Credits
 - [Adobe Stock Images](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Azip_vector%5D=true&hide_panel=true&k=body+outline&search_type=usertyped&asset_id=740103554) - for body diagram image
