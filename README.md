@@ -162,14 +162,24 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 
 ## References
 
+- Source: British Menopause Society, "Menopause Matters" (2020). [Link - https://www.britishmenopausesociety.org/menopause-faqs/]
+
+- Source: Fiona Clark, Medium Blogpost, "Could it be Menopause? With more than 30 symptoms it can sometimes be hard to tell" (2020). [Link - https://medium.com/@info_30745/could-it-be-menopause-with-more-than-30-symptoms-it-can-sometimes-be-hard-to-tell-eeb399e2eaa2]
+
+- Source: Forth With Life, "How to support your partner through perimenopause" (2023). [Link: https://www.forthwithlife.co.uk/blog/how-to-support-your-partner-through-perimenopause/]
+
 - Source: National Institute for Health and Care Excellence (NICE), "Menopause: Diagnosis and Management" (2015). [Link - https://www.nice.org.uk/guidance/ng23]
 
- - Source: NHS (National Health Service), "Menopause" (2021). [Link - https://www.nhs.uk/conditions/menopause/]
+- Source: NHS (National Health Service), "Menopause" (2021). [Link - https://www.nhs.uk/conditions/menopause/]
 
-  - Source: Royal College of Obstetricians and Gynaecologists (RCOG), "Menopause" (2016). [Link - https://www.rcog.org.uk/en/patients/menopause/]
+- Source: NHS Inform Scotland, "Menopause and the Workplace" (2023). [Link - https://www.nhsinform.scot/healthy-living/womens-health/later-years-around-50-years-and-over/menopause-and-post-menopause-health/menopause-and-the-workplace/]
 
-  - Source: British Menopause Society, "Menopause Matters" (2020). [Link - https://www.britishmenopausesociety.org/menopause-faqs/]
+- Source: NHS Inform Scotland, "Supporting someone through the menopause" (2023). [Link - https://www.nhsinform.scot/healthy-living/womens-health/later-years-around-50-years-and-over/menopause-and-post-menopause-health/supporting-someone-through-the-menopause//]
 
-  - Source: Menopause UK, "The Menopause Survey 2020". [Link - https://www.menopauseuk.org/for-women/menopause-awareness/menopause-uk-survey-2020]
+- Source: Royal College of Obstetricians and Gynaecologists (RCOG), "Menopause" (2016). [Link - https://www.rcog.org.uk/en/patients/menopause/]
 
-  - Reference for inclusivity: Article: Inclusive Language and the Menopause (GenderGP Transgender Services) [Link - https://www.gendergp.com/blog-menopause-inclusivity/]
+- Source: Menopause UK, "The Menopause Survey 2020". [Link - https://www.menopauseuk.org/for-women/menopause-awareness/menopause-uk-survey-2020]
+
+- Reference for inclusivity: Article: Inclusive Language and the Menopause (GenderGP Transgender Services) [Link - https://www.gendergp.com/blog-menopause-inclusivity/]
+
+- Reference for inclusivity: Clinic Blog Post: LGBTQ+ inclusivity and menopause (The Surrey Park Clinic) [Link - https://thesurreyparkclinic.co.uk/lgbtq-health-menopause/]
