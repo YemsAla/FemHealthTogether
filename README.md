@@ -57,7 +57,7 @@ The platform will serve as a one-stop destination for education, empathy and pra
 
 The overall approach and features have been designed in a friendly, upbeat and inclusive way that hopefully engages all ages and backgrounds, while also providing reliable suggestions from reliable sources online (see References below).
 
-We have considered the use of our language, design and advice across the pages to be as neutral and inclusive as possible, highlighting that menopause affects not just those who identify as women, and also to appeal more broadly across different age groups. However, it must be stressed that this hackathon project was developed in a very short space of time, so there is more that we aim to do in future to make this a truly inclusive space with extra features of support.
+We have considered the use of our language, design and advice across the pages to be as neutral as possible, highlighting that menopause affects not just those who identify as women, and also to appeal more broadly across different age groups. However, it must be stressed that this hackathon project was developed in a very short space of time, so there is more that we aim to do in future to make this a truly inclusive space with extra features of support.
 
 ## Features (MVP)
 
