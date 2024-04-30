@@ -12,10 +12,6 @@ There is very little general knowledge available about it and unfortunately, it 
 
 Partners, colleagues and friends may not know how to recognize the symptoms of menopause or how to provide effective support, resulting in potentially strained relationships and decreased quality of life for anyone experiencing menopause.
 
-**Meno-Together** aims to provide information on different symptoms that may affect people during menopause (as well as perimenopause), in a friendly, upbeat and inclusive way that helps to engage all ages and backgrounds. It contains symptom information pages that can help not only those experiencing menopause, but their partners, friends, family, and work colleagues.
-
-We have considered the use of our language, design and advice across the pages to be as neutral and inclusive as possible, highlighting that menopause affects not just those who identify as women, and also to appeal more broadly across different age groups. However, it must be stressed that this hackathon project was developed in a very short space of time, so there is more that we aim to do in future to make this a truly inclusive space with extra features of support.
-
 As a team, we have recognised there is a lack of support and education for everyone involved when it comes to menopause, so the best approach for us to encourage positive change is to **"MAKE MENOPAUSE EASIER, TOGETHER".**
 
 ## Showcase
@@ -56,8 +52,12 @@ Role: Accessibility Advocate & Bug Buster
 
 ## Product Vision
 
-Meno-Together aims to bridge the current gap in understanding and support for people going through menopause by providing comprehensive information and resources for partners & other surrounding groups, such as colleagues and friends. 
+**Meno-Together** aims to bridge the current gap in understanding and support for people going through menopause (as well as perimenopause) by providing comprehensive information and resources for partners & other surrounding groups, such as colleagues and friends. 
 The platform will serve as a one-stop destination for education, empathy and practical tips to help loved ones navigate this significant life transition together.
+
+The overall approach and features have been designed in a friendly, upbeat and inclusive way that hopefully engages all ages and backgrounds, while also providing reliable suggestions from reliable sources online (see References below).
+
+We have considered the use of our language, design and advice across the pages to be as neutral and inclusive as possible, highlighting that menopause affects not just those who identify as women, and also to appeal more broadly across different age groups. However, it must be stressed that this hackathon project was developed in a very short space of time, so there is more that we aim to do in future to make this a truly inclusive space with extra features of support.
 
 ## Features (MVP)
 
