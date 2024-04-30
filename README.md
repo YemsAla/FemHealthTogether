@@ -153,7 +153,6 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 - [Canva](https://www.canva.com/) - used to create logo, hero images
 - [Coolors](https://coolors.co/) - used to generate a color palette for the website design
 - [TinyPNG](https://tinypng.com/) - converting and compressing images
-- [Canva](https://www.canva.com/) - used to design and edit the card images, gifs and pdf resources used in the game
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
 
