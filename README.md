@@ -158,7 +158,7 @@ These evolved slightly throughout the planning phase.  The first draft can be vi
 
 ## Credits
 - [Adobe Stock Images](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Azip_vector%5D=true&hide_panel=true&k=body+outline&search_type=usertyped&asset_id=740103554) - for body diagram image
-- [Flaticon icons](https://www.flaticon.com/authors/basic-accent/lineal-color) - colourful link icons made by [Freepik](https://www.freepik.com/) and accessible through Flaticon, free for usage with credit reference
+- [Flaticon icons](https://www.flaticon.com/authors/basic-accent/lineal-color) - colourful link icons ('basic accent lineal color' style) made by [Freepik](https://www.freepik.com/) and accessible through Flaticon, free for usage with credit reference
 
 ## References
 
