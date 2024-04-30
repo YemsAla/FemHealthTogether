@@ -2,15 +2,21 @@
 
 # FemHealthTogether
 
-## Meno-together 
+## Meno-Together 
 
-Overview
+**Overview**
 
-Menopause is a natural phase of life for women that typically occurs between the ages of 45 and 55. 
+Menopause affects anyone who menstruates, and refers to the phase of life when periods stop due to lower hormone levels. It usually happens between the ages of 45 and 55, but it can happen earlier. Perimenopause happens in the lead up to menopause - where periods haven't yet stopped (for at least 12 months), but there are symptoms of menopause. These symptoms can be difficult and confusing to deal with when they happen - e.g. anxiety, mood swings, hot flushes, brain fog and forgetfulness, dry skin.. to name but a few - and they can have a big impact on general life, relationships and work.
 
-There is very little general knowledge available about it and unfortunately, it is often surrounded by misconceptions, stigma and lack of understanding, leading to women sometimes feeling embarrassed, isolated and unsupported during this transition. 
+There is very little general knowledge available about it and unfortunately, it is often surrounded by misconceptions, stigma and lack of understanding, leading to those experiencing menopausal symptoms sometimes feeling embarrassed, isolated and unsupported during this transition. 
 
-Partners, colleagues and friends may not know how to recognize the symptoms of menopause or how to provide effective support, resulting in potentially strained relationships and decreased quality of life for women experiencing menopause.
+Partners, colleagues and friends may not know how to recognize the symptoms of menopause or how to provide effective support, resulting in potentially strained relationships and decreased quality of life for anyone experiencing menopause.
+
+**Meno-Together** aims to provide information on different symptoms that may affect people during menopause (as well as perimenopause), in a friendly, upbeat and inclusive way that helps to engage all ages and backgrounds. It contains symptom information pages that can help not only those experiencing menopause, but their partners, friends, family, and work colleagues.
+
+We have considered the use of our language, design and advice across the pages to be as neutral and inclusive as possible, highlighting that menopause affects not just those who identify as women, and also to appeal more broadly across different age groups. However, it must be stressed that this hackathon project was developed in a very short space of time, so there is more that we aim to do in future to make this a truly inclusive space with extra features of support.
+
+As a team, we have recognised there is a lack of support and education for everyone involved when it comes to menopause, so the best approach for us to encourage positive change is to **"MAKE MENOPAUSE EASIER, TOGETHER".**
 
 ## Showcase
 
@@ -50,27 +56,27 @@ Role: Accessibility Advocate & Bug Buster
 
 ## Product Vision
 
-Meno-together aims to bridge the current gap in understanding and support for women going through menopause by providing comprehensive information and resources for partners & other surrounding groups, such as colleagues and friends. 
+Meno-Together aims to bridge the current gap in understanding and support for people going through menopause by providing comprehensive information and resources for partners & other surrounding groups, such as colleagues and friends. 
 The platform will serve as a one-stop destination for education, empathy and practical tips to help loved ones navigate this significant life transition together.
 
 ## Features (MVP)
 
 1. Interactive Body Diagram
 
-   - Users will be greeted with an interactive diagram of a woman's body, highlighting different areas affected by menopause
+   - Users will be greeted with an interactive diagram of a female body, highlighting different areas affected by menopause
    - Clicking on specific body parts will reveal information about the associated symptoms, how common they are and possibly the stage of menopause
 
-- A body diagram and symptoms page per persona (woman/partner/colleague/friend)
+- A body diagram and symptoms page per persona (you/partner/friends&family/colleague)
 
 2. Symptom Details
 
    - Each clickable area should provide detailed information about the symptom including its prevalence, the stage of menopause it commonly occurs in and its impact on the body.
-   - Brief descriptions tailored for partners, colleagues and friends should help them understand what women are experiencing during menopause.
+   - Brief descriptions tailored for partners, colleagues and friends should help them understand what people are experiencing during menopause.
 
 
 3. Supportive Tips
 
-   - Practical tips and suggestions will be provided to advise how best to support women through their menopausal journey.
+   - Practical tips and suggestions will be provided to advise how best to support someone through their menopausal journey.
    - These tips will cover everything from lifestyle changes to effective communication, aimed at easing symptoms and fostering understanding.
 
 ## Features (post MVP)
