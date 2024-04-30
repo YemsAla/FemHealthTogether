@@ -22,7 +22,7 @@ As a team, we have recognised there is a lack of support and education for every
 
 ![Am I Responsive?](/docs/femhealthtogether-responsive.webp "Am I Responsive? Website Mockup")
 
-A **deployed link** to the live website can be found here [Menopause-Together Live Website](https://yemsala.github.io/FemHealthTogether/index.html)
+A **deployed link** to the live website can be found here [Meno-Together Live Website](https://yemsala.github.io/FemHealthTogether/index.html)
 
 ## Developers
 
